@@ -1,0 +1,6 @@
+baseURL = 'https://jannikmenzel.me/'
+languageCode = 'de'
+title = 'iFSR-Website'
+disableKinds = ["taxonomy", "RSS"]
+[minify]
+disableXML = true

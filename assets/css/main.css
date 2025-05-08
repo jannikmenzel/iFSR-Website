@@ -1,0 +1,233 @@
+/* ========================
+   Allgemein
+   ======================== */
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #191A23;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: relative;
+}
+
+main {
+    flex: 1;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    color: #1a1a1a;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* ========================
+   Navbar
+   ======================== */
+.navbar {
+    padding: 15px 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navbar .container {
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.navbar-brand {
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.1rem;
+    margin-right: 10px;
+    transition: color 0.3s ease-in-out;
+    margin-left: 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+    text-decoration: underline;
+}
+
+.nav-item.dropdown {
+    position: relative;
+}
+
+.show-on-hover:hover > .dropdown-menu {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 0;
+}
+
+.dropdown-menu .dropdown-item:active {
+    background-color: #e0e0e0;
+    color: #191A23;
+}
+
+/* ========================
+   Hero
+   ======================== */
+.hero-section {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    max-width: 45rem;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.hero-section h1 {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+    font-size: 3.2rem;
+}
+
+.hero-section p {
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    color: #191A23;
+    max-width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ========================
+   Button
+   ======================== */
+.btn-primary-dark {
+    background-color: #191A23;
+    color: #ffffff;
+}
+
+.btn-primary-dark:hover {
+    color: #191A23;
+    background-color: transparent;
+    border-color: #191A23;
+    box-shadow: 0 2px 0 0 #191A23;
+}
+
+.btn-primary-dark:focus {
+    color: #191A23;
+    background-color: transparent;
+    border-color: #191A23;
+    box-shadow: 0 4px 0 0 #191A23;
+}
+
+.btn-primary-light {
+    /* TODO */
+}
+
+.btn-primary-light:hover {
+    /* TODO */
+}
+
+.btn-primary-light:focus {
+    /* TODO */
+}
+
+.btn-primary-green {
+    /* TODO */
+}
+
+.btn-primary-green:hover {
+    /* TODO */
+}
+
+.btn-primary-green:focus {
+    /* TODO */
+}
+
+/* ========================
+   Footer
+   ======================== */
+.footer {
+    padding: 1.5rem 0;
+    width: 100%;
+    margin-top: auto;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.footer-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.5rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.footer-nav li {
+    display: inline;
+}
+
+.footer-nav a {
+    color: #191A23;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-nav a:hover,
+.footer-nav a:focus {
+    color: #191A23;
+    text-decoration: underline;
+    outline: none;
+}
+
+@media (max-width: 600px) {
+    .footer-nav ul {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+}
+
+/* ========================
+   404 Error Page
+   ======================== */
+.page-not-found {
+    margin-top: 10rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+    text-align: center;
+}
+
+.page-not-found .error-code {
+    font-size: 6rem;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.page-not-found .error-message {
+    font-size: 1.25rem;
+    color: #191A23;
+}
