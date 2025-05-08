@@ -1,4 +1,5 @@
-baseURL = 'https://jannikmenzel.me/iFSR-Website'
+baseURL = "https://jannikmenzel.me/iFSR-Website/"
+canonifyURLs = true
 languageCode = 'de'
 title = 'iFSR-Website'
 disableKinds = ["taxonomy", "RSS"]

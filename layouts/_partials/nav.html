@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="/">iFSR</a>
+        <a class="navbar-brand" href="{{ "/" | relURL }}">iFSR</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -9,36 +9,36 @@
             <ul class="navbar-nav ms-auto align-items-lg-center">
 
                 <!-- Home -->
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ "/" | relURL }}">Home</a></li>
 
                 <!-- Über uns -->
                 <li class="nav-item dropdown d-flex align-items-center show-on-hover">
-                    <a class="nav-link ps-0" href="/about">Über uns</a>
+                    <a class="nav-link ps-0" href="{{ "/about" | relURL }}">Über uns</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/about/aufgaben">Aufgaben</a></li>
-                        <li><a class="dropdown-item" href="/about/mitglieder">Mitglieder</a></li>
-                        <li><a class="dropdown-item" href="/about/aemter">Ämter</a></li>
-                        <li><a class="dropdown-item" href="/about/entsendungen">Entsendungen</a></li>
+                        <li><a class="dropdown-item" href="{{ "/about/aufgaben" | relURL }}">Aufgaben</a></li>
+                        <li><a class="dropdown-item" href="{{ "/about/mitglieder" | relURL }}">Mitglieder</a></li>
+                        <li><a class="dropdown-item" href="{{ "/about/aemter" | relURL }}">Ämter</a></li>
+                        <li><a class="dropdown-item" href="{{ "/about/entsendungen" | relURL }}">Entsendungen</a></li>
                     </ul>
                 </li>
 
                 <!-- Studium -->
                 <li class="nav-item dropdown d-flex align-items-center show-on-hover">
-                    <a class="nav-link ps-0" href="/studium">Studium</a>
+                    <a class="nav-link ps-0" href="{{ "/studium" | relURL }}">Studium</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="/studium/studienberatung">Studienberatung</a></li>
-                        <li><a class="dropdown-item" href="/studium/stoffkiste-und-ftp">Stoffkiste & FTP</a></li>
-                        <li><a class="dropdown-item" href="/studium/manual">Manual</a></li>
-                        <li><a class="dropdown-item" href="/studium/services">Services</a></li>
-                        <li><a class="dropdown-item" href="/studium/linksammlung">Linksammlung</a></li>
+                        <li><a class="dropdown-item" href="{{ "/studium/studienberatung" | relURL }}">Studienberatung</a></li>
+                        <li><a class="dropdown-item" href="{{ "/studium/stoffkiste-und-ftp" | relURL }}">Stoffkiste & FTP</a></li>
+                        <li><a class="dropdown-item" href="{{ "/studium/manual" | relURL }}">Manual</a></li>
+                        <li><a class="dropdown-item" href="{{ "/studium/services" | relURL }}">Services</a></li>
+                        <li><a class="dropdown-item" href="{{ "/studium/linksammlung" | relURL }}">Linksammlung</a></li>
                     </ul>
                 </li>
 
                 <!-- Sitzung & Protokolle -->
-                <li class="nav-item"><a class="nav-link" href="/sitzung-und-protokolle">Sitzung & Protokolle</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ "/sitzung-und-protokolle" | relURL }}">Sitzung & Protokolle</a></li>
 
                 <!-- Kontakt -->
-                <li class="nav-item"><a class="nav-link" href="/kontakt">Kontakt</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ "/kontakt" | relURL }}">Kontakt</a></li>
 
             </ul>
         </div>
