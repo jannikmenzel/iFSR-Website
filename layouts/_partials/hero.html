@@ -1,11 +1,13 @@
 <section class="py-5 bg-light hero-section">
     <div class="container">
         <div class="row align-items-center">
-            <!-- Text Links -->
             <div class="col-md-12 text-center mb-4 mb-md-0">
                 <h1 class="display-5 fw-bold text-center">Willkommen auf der Website des FSR Informatik</h1>
                 <p class="lead text-muted text-center">Gemeinsam stark im Studium – dein Fachschaftsrat steht für Austausch, Unterstützung und Mitgestaltung.</p>
-                <a href="#" class="btn btn-primary-dark btn-lg mt-3">mehr erfahren</a>
+                <div class="d-flex justify-content-center gap-4 mt-3">
+                    <a href="{{ "/about" | relURL }}" class="btn btn-primary-dark btn-lg">mehr erfahren</a>
+                    <a href="{{ "/kontakt" | relURL }}" class="btn btn-primary-light btn-lg">kontaktieren</a>
+                </div>
             </div>
         </div>
     </div>

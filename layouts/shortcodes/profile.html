@@ -1,0 +1,11 @@
+<div class="profile">
+    <div class="profile-image">
+        <img src="{{ .Get "image" | relURL }}" alt="{{ .Get "name" }}"/>
+    </div>
+    <div class="profile-content">
+        <h2>{{ .Get "name" }}</h2>
+        <p><strong>Studiengang:</strong> {{ .Get "studiengang" }}<br>
+            📧 <a href="mailto:{{ .Get "email" }}">{{ .Get "email" }}</a></p>
+    </div>
+</div>
+{{ .Inner | markdownify }}

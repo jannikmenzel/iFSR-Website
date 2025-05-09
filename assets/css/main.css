@@ -73,6 +73,11 @@ p {
     text-decoration: underline;
 }
 
+li .dropdown-item-mobile {
+    display: block;
+    padding-left: 2.5rem;
+}
+
 .nav-item.dropdown {
     position: relative;
 }
@@ -102,6 +107,7 @@ p {
 }
 
 .hero-section h1 {
+    padding: 0 1rem 0 1rem;
     margin-bottom: 1rem;
     line-height: 1.2;
     font-size: 3.2rem;
@@ -128,38 +134,166 @@ p {
     color: #191A23;
     background-color: transparent;
     border-color: #191A23;
-    box-shadow: 0 2px 0 0 #191A23;
+    box-shadow: 0 4px 0 0 #191A23;
 }
 
-.btn-primary-dark:focus {
+.btn-primary-light {
+    background-color: transparent;
+    color: #191A23;
+    border-color: #191A23;
+}
+
+.btn-primary-light:hover {
     color: #191A23;
     background-color: transparent;
     border-color: #191A23;
     box-shadow: 0 4px 0 0 #191A23;
 }
 
-.btn-primary-light {
-    /* TODO */
-}
-
-.btn-primary-light:hover {
-    /* TODO */
-}
-
-.btn-primary-light:focus {
-    /* TODO */
-}
-
 .btn-primary-green {
-    /* TODO */
+    background-color: #BBE04C;
+    color: #191A23;
 }
 
 .btn-primary-green:hover {
-    /* TODO */
+    color: #191A23;
+    background-color: transparent;
+    border-color: #BBE04C;
+    box-shadow: 0 4px 0 0 #BBE04C;
 }
 
-.btn-primary-green:focus {
-    /* TODO */
+/* ========================
+   Markdown Content
+   ======================== */
+#markdown {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0 0 0;
+    hyphens: auto;
+    text-align: justify;
+    line-height: 1.8;
+    color: #191A23;
+}
+
+#markdown h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    text-align: left;
+    color: #191A23;
+    background-color: #BBE04C;
+    border-radius: 8px;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+#markdown h1::before {
+    content: "// ";
+    color: #191A23;
+    font-weight: bold;
+}
+
+#markdown h2 {
+    font-size: 2rem;
+    color: #191A23;
+}
+
+#markdown h3 {
+    font-size: 1.5rem;
+    color: #191A23;
+}
+
+#markdown h4 {
+    font-size: 1.25rem;
+    color: #191A23;
+}
+
+#markdown h5 {
+    font-size: 1.1rem;
+    color: #191A23;
+}
+
+#markdown h6 {
+    font-size: 1rem;
+    color: #191A23;
+}
+
+#markdown p,
+#markdown li {
+    font-size: 1.1rem;
+    color: #191A23;
+}
+
+#markdown ul, #markdown ol {
+    padding-left: 20px;
+}
+
+#markdown table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #191A23;
+    border: 1px solid #191A23;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 0 0 #191A23;
+}
+
+#markdown th,
+#markdown td {
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    text-align: left;
+    border-radius: 0;
+}
+
+#markdown th {
+    background-color: #f2f2f2;
+    color: #191A23;
+    font-weight: bolder;
+}
+
+#markdown blockquote {
+    background-color: #F3F3F3;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #191A23;
+    border: 1px solid #191A23;
+    border-radius: 10px;
+    box-shadow: 0 4px 0 0 #191A23;
+}
+
+#markdown a {
+    color: #6A9500;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#markdown a:hover {
+    color: #6A9500;
+    text-decoration: underline;
+}
+
+#markdown code {
+    background-color: #2e2e2e;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ff7b72;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#markdown img {
+    width: 100%;
+    max-height: 60vh;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 /* ========================
@@ -200,13 +334,6 @@ p {
     outline: none;
 }
 
-@media (max-width: 600px) {
-    .footer-nav ul {
-        flex-direction: column;
-        gap: 0.75rem;
-    }
-}
-
 /* ========================
    404 Error Page
    ======================== */
@@ -230,4 +357,20 @@ p {
 .page-not-found .error-message {
     font-size: 1.25rem;
     color: #191A23;
+}
+
+
+/* ========================
+   Responsive Design
+   ======================== */
+@media (max-width: 991px) {
+    .navbar-collapse .dropdown-menu {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .dropdown-item-mobile {
+        display: none !important;
+    }
 }

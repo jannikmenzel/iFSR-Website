@@ -4,4 +4,13 @@ languageCode = 'de'
 title = 'iFSR-Website'
 disableKinds = ["taxonomy", "RSS"]
 [minify]
+
+[[module.mounts]]
+source = 'static'
+target = 'static'
+
+[[module.mounts]]
+source = 'images'
+target = 'static/images'
+
 disableXML = true

@@ -1,0 +1,22 @@
+/* ========================
+   profile
+   ======================== */
+#markdown .profile {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#markdown .profile-image {
+    flex: 0 0 150px;
+}
+
+#markdown .profile-image img {
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+#markdown .profile-content {
+    flex: 1;
+}
