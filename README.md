@@ -64,7 +64,7 @@ Anschließend kannst du die Website im Browser unter [http://localhost:1313](htt
 3. Trage die Seite in der Navigationsstruktur ein, indem du sie in `data/navigation.toml` ergänzt:
 
     ```toml
-    [[menu-main]]
+    [[menu.main]]
     name = "Team"
     url = "/about/team"
     weight = 6
@@ -103,7 +103,3 @@ Bei Fragen oder Vorschlägen zur Website kontaktiere uns gerne:
 Bei spezifischen Fragen zum Sourcecode kontaktiere:
 
 - [jannik.menzel@ifsr.de](mailto:jannik.menzel@ifsr.de)
-
-## 📄 Lizenz
-
-Dieses Projekt ist unter der GNU General Public License v3.0 (GPLv3) lizenziert – weitere Details findest du in der Datei LICENSE.
