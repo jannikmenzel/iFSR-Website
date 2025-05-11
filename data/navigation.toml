@@ -1,0 +1,103 @@
+[menu]
+
+# ====================
+# Hauptmenü: Home
+# ====================
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+# ====================
+# Hauptmenü: Über uns
+# ====================
+[[menu.main]]
+name = "Über uns"
+url = "/about"
+weight = 2
+
+# Untermenüs von "Über uns"
+[[menu.main]]
+parent = "Über uns"
+name = "Aufgaben"
+url = "/about/aufgaben"
+weight = 1
+
+[[menu.main]]
+parent = "Über uns"
+name = "Mitglieder"
+url = "/about/mitglieder"
+weight = 2
+
+[[menu.main]]
+parent = "Über uns"
+name = "Ämter"
+url = "/about/aemter"
+weight = 3
+
+[[menu.main]]
+parent = "Über uns"
+name = "Entsendungen"
+url = "/about/entsendungen"
+weight = 4
+
+[[menu.main]]
+parent = "Über uns"
+name = "Ordnungen"
+url = "/about/ordnungen"
+weight = 5
+
+# ====================
+# Hauptmenü: Studium
+# ====================
+[[menu.main]]
+name = "Studium"
+url = "/studium"
+weight = 3
+
+# Untermenüs von "Studium"
+[[menu.main]]
+parent = "Studium"
+name = "Studienberatung"
+url = "/studium/studienberatung"
+weight = 1
+
+[[menu.main]]
+parent = "Studium"
+name = "Stoffkiste & FTP"
+url = "/studium/stoffkiste-und-ftp"
+weight = 2
+
+[[menu.main]]
+parent = "Studium"
+name = "Manual"
+url = "https://manual.ifsr.de"
+weight = 3
+
+[[menu.main]]
+parent = "Studium"
+name = "Services"
+url = "/studium/services"
+weight = 4
+
+[[menu.main]]
+parent = "Studium"
+name = "Linksammlung"
+url = "/studium/linksammlung"
+weight = 5
+
+# ====================
+# Hauptmenü: Sitzung & Protokolle
+# ====================
+[[menu.main]]
+name = "Sitzung & Protokolle"
+url = "/sitzung-und-protokolle"
+weight = 4
+
+# ====================
+# Hauptmenü: Kontakt
+# ====================
+[[menu.main]]
+name = "Kontakt"
+url = "/kontakt"
+weight = 5

@@ -9,55 +9,32 @@
         </button>
 
         <div class="collapse navbar-collapse" id="mainNav">
+            {{ $items := site.Data.navigation.menu.main }}
             <ul class="navbar-nav ms-auto align-items-lg-center">
-
-                <!-- Home -->
-                <li class="nav-item"><a class="nav-link" href="{{ "/" | relURL }}">Home</a></li>
-
-                <!-- Über uns -->
-                <li class="nav-item dropdown d-flex align-items-center show-on-hover">
-                    <a class="nav-link ps-0" href="{{ "/about" | relURL }}">Über uns</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ "/about/aufgaben" | relURL }}">Aufgaben</a></li>
-                        <li><a class="dropdown-item" href="{{ "/about/mitglieder" | relURL }}">Mitglieder</a></li>
-                        <li><a class="dropdown-item" href="{{ "/about/aemter" | relURL }}">Ämter</a></li>
-                        <li><a class="dropdown-item" href="{{ "/about/entsendungen" | relURL }}">Entsendungen</a></li>
-                    </ul>
-                </li>
-
-                <li><div class="d-lg-none d-flex flex-column dropdown-item-mobile">
-                    <a class="nav-link ps-0" href="{{ "/about/aufgaben" | relURL }}">Aufgaben</a>
-                    <a class="nav-link ps-0" href="{{ "/about/mitglieder" | relURL }}">Mitglieder</a>
-                    <a class="nav-link ps-0" href="{{ "/about/aemter" | relURL }}">Ämter</a>
-                    <a class="nav-link ps-0" href="{{ "/about/entsendungen" | relURL }}">Entsendungen</a>
-                </div></li>
-
-                <!-- Studium -->
-                <li class="nav-item dropdown d-flex align-items-center show-on-hover">
-                    <a class="nav-link ps-0" href="{{ "/studium" | relURL }}">Studium</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="{{ "/studium/studienberatung" | relURL }}">Studienberatung</a></li>
-                        <li><a class="dropdown-item" href="{{ "/studium/stoffkiste-und-ftp" | relURL }}">Stoffkiste & FTP</a></li>
-                        <li><a class="dropdown-item" href="https://manual.ifsr.de">Manual</a></li>
-                        <li><a class="dropdown-item" href="{{ "/studium/services" | relURL }}">Services</a></li>
-                        <li><a class="dropdown-item" href="{{ "/studium/linksammlung" | relURL }}">Linksammlung</a></li>
-                    </ul>
-                </li>
-
-                <li><div class="d-lg-none d-flex flex-column dropdown-item-mobile">
-                    <a class="nav-link ps-0" href="{{ "/studium/studienberatung" | relURL }}">Studienberatung</a>
-                    <a class="nav-link ps-0" href="{{ "/studium/stoffkiste-und-ftp" | relURL }}">Stoffkiste & FTP</a>
-                    <a class="nav-link ps-0" href="https://manual.ifsr.de">Manual</a>
-                    <a class="nav-link ps-0" href="{{ "/studium/services" | relURL }}">Services</a>
-                    <a class="nav-link ps-0" href="{{ "/studium/linksammlung" | relURL }}">Linksammlung</a>
-                </div></li>
-
-                <!-- Sitzung & Protokolle -->
-                <li class="nav-item"><a class="nav-link" href="{{ "/sitzung-und-protokolle" | relURL }}">Sitzung & Protokolle</a></li>
-
-                <!-- Kontakt -->
-                <li class="nav-item"><a class="nav-link" href="{{ "/kontakt" | relURL }}">Kontakt</a></li>
-
+                {{ range $i := $items }}
+                    {{ if not $i.parent }}
+                        {{ $children := where $items "parent" $i.name }}
+                        {{ if gt (len $children) 0 }}
+                            <li class="nav-item dropdown d-flex align-items-center show-on-hover">
+                                <a class="nav-link ps-0" href="{{ $i.url | relURL }}">{{ $i.name }}</a>
+                                <ul class="dropdown-menu">
+                                    {{ range $child := $children }}
+                                        <li><a class="dropdown-item" href="{{ $child.url | relURL }}">{{ $child.name }}</a></li>
+                                    {{ end }}
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="d-lg-none d-flex flex-column dropdown-item-mobile">
+                                    {{ range $child := $children }}
+                                        <a class="nav-link ps-0" href="{{ $child.url | relURL }}">{{ $child.name }}</a>
+                                    {{ end }}
+                                </div>
+                            </li>
+                        {{ else }}
+                            <li class="nav-item"><a class="nav-link" href="{{ $i.url | relURL }}">{{ $i.name }}</a></li>
+                        {{ end }}
+                    {{ end }}
+                {{ end }}
             </ul>
         </div>
     </div>

@@ -1,5 +1,5 @@
 +++
-title = 'Barrierefreiheit'
+title = "Barrierefreiheit"
 draft = false
 +++
 

@@ -1,5 +1,5 @@
 +++
-title = 'Datenschutz'
+title = "Datenschutz"
 draft = false
 +++
 

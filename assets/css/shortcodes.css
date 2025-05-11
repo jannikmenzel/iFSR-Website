@@ -8,7 +8,8 @@
 }
 
 #markdown .profile-image {
-    flex: 0 0 150px;
+    flex: 0 0 10rem;
+    max-width: 15rem;
 }
 
 #markdown .profile-image img {
@@ -19,4 +20,16 @@
 
 #markdown .profile-content {
     flex: 1;
+}
+
+@media (max-width: 768px) {
+    #markdown .profile {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    #markdown .profile-content {
+        text-align: center;
+    }
 }

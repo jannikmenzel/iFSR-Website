@@ -1,5 +1,5 @@
 +++
-title = 'Studium'
+title = "Studium"
 draft = false
 +++
 
