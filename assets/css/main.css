@@ -1,4 +1,26 @@
 /* ========================
+   Farbvariablen
+   ======================== */
+:root {
+    --color-background: #f8f9fa;
+    --color-text: #191A23;
+    --color-accent: #BBE04C;
+    --color-primary-button-dark: #191A23;
+    --color-primary-button-light: #FFFFFF;
+    --color-link: #405C00;
+    --color-error: #d9534f;
+    --color-offwhite: #F3F3F3;
+    --color-offblack: #1D1F29
+}
+
+.dark {
+    --color-background: #191A23;
+    --color-text: #F2F2F2;
+    --color-text-dark: #191A23;
+    --color-link: #BBE04C;
+}
+
+/* ========================
    Allgemein
    ======================== */
 html, body {
@@ -7,10 +29,10 @@ html, body {
 
 body {
     font-family: 'Cairo', sans-serif;
-    background-color: #f8f9fa;
+    background-color: var(--color-background);
     margin: 0;
     padding: 0;
-    color: #191A23;
+    color: var(--color-text);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -26,7 +48,7 @@ h1, h2, h3, h4, h5 {
     font-weight: 500;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
-    color: #1a1a1a;
+    color: var(--color-text);
     text-align: left;
 }
 
@@ -36,17 +58,17 @@ p {
 }
 
 .container {
+    background-color: var(--color-background);
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 /* ========================
    Navbar
    ======================== */
 .navbar {
-    padding: 15px 0;
+    padding: 1rem 0;
     top: 0;
     left: 0;
     width: 100%;
@@ -58,12 +80,18 @@ p {
 }
 
 .navbar-brand {
+    color: var(--color-text);
     font-family: 'Exo 2', sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
+.navbar-brand:hover {
+    color: var(--color-accent);
+}
+
 .navbar-nav .nav-link {
+    color: var(--color-text);
     font-size: 1.1rem;
     margin-right: 10px;
     transition: color 0.3s ease-in-out;
@@ -91,9 +119,58 @@ li .dropdown-item-mobile {
     margin-top: 0;
 }
 
+.dark .show-on-hover:hover > .dropdown-menu {
+    background-color: var(--color-offblack);
+}
+
 .dropdown-menu .dropdown-item:active {
     background-color: #e0e0e0;
-    color: #191A23;
+    color: var(--color-text);
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 0.3rem 0 0.3rem 1rem;
+}
+
+.dark .dropdown-menu .dropdown-item {
+    color: var(--color-text);
+}
+
+.dark .dropdown-menu .dropdown-item:active {
+    background-color: var(--color-offblack);
+    color: var(--color-text);
+}
+
+.dark .dropdown-menu .dropdown-item:hover {
+    background-color: var(--color-accent);
+    color: var(--color-text-dark);
+}
+
+#theme-switch {
+    height: 2.3rem;
+    width: 2.3rem;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    appearance: none;
+}
+
+#theme-switch img#light-icon {
+    display: none;
+}
+#theme-switch img#dark-icon {
+    display: inline;
+}
+
+.dark #theme-switch img#light-icon {
+    display: inline;
+}
+.dark #theme-switch img#dark-icon {
+    display: none;
 }
 
 /* ========================
@@ -117,7 +194,7 @@ li .dropdown-item-mobile {
 .hero-section p {
     margin-bottom: 0.5rem;
     font-size: 1.25rem;
-    color: #191A23;
+    color: var(--color-text);
     max-width: 35rem;
     margin-left: auto;
     margin-right: auto;
@@ -126,41 +203,54 @@ li .dropdown-item-mobile {
 /* ========================
    Button
    ======================== */
-.btn-primary-dark {
-    background-color: #191A23;
-    color: #ffffff;
+.btn-primary {
+    border: 1px solid var(--color-primary-button-dark);
+    background-color: var(--color-primary-button-dark);
+    color: var(--color-primary-button-light);
 }
 
-.btn-primary-dark:hover {
-    color: #191A23;
+.btn-primary:hover {
+    color: var(--color-primary-button-dark);
     background-color: transparent;
-    border-color: #191A23;
-    box-shadow: 0 4px 0 0 #191A23;
+    border: 1px solid var(--color-primary-button-dark);
+    box-shadow: 0 4px 0 0 var(--color-primary-button-dark);
 }
 
-.btn-primary-light {
+.dark .btn-primary {
+    border: 1px solid var(--color-accent);
+    background-color: var(--color-accent);
+    color: var(--color-text-dark);
+}
+
+.dark .btn-primary:hover {
+    color: var(--color-text);
     background-color: transparent;
-    color: #191A23;
-    border-color: #191A23;
+    border: 1px solid var(--color-accent);
+    box-shadow: 0 4px 0 0 var(--color-accent);
 }
 
-.btn-primary-light:hover {
-    color: #191A23;
+.btn-secondary {
     background-color: transparent;
-    border-color: #191A23;
-    box-shadow: 0 4px 0 0 #191A23;
+    color: var(--color-primary-button-dark);
+    border: 1px solid var(--color-primary-button-dark);
 }
 
-.btn-primary-green {
-    background-color: #BBE04C;
-    color: #191A23;
-}
-
-.btn-primary-green:hover {
-    color: #191A23;
+.btn-secondary:hover {
+    color: var(--color-primary-button-dark);
     background-color: transparent;
-    border-color: #BBE04C;
-    box-shadow: 0 4px 0 0 #BBE04C;
+    border-color: var(--color-primary-button-dark);
+    box-shadow: 0 4px 0 0 var(--color-primary-button-dark);
+}
+
+.dark .btn-secondary {
+    color: var(--color-primary-button-light);
+    border: 1px solid var(--color-primary-button-light);
+}
+
+.dark .btn-secondary:hover {
+    color: var(--color-primary-button-light);
+    border-color: var(--color-primary-button-light);
+    box-shadow: 0 4px 0 0 var(--color-primary-button-light);
 }
 
 /* ========================
@@ -173,7 +263,7 @@ li .dropdown-item-mobile {
     hyphens: auto;
     text-align: left;
     line-height: 1.8;
-    color: #191A23;
+    color: var(--color-text);
 }
 
 #markdown h1 {
@@ -181,49 +271,58 @@ li .dropdown-item-mobile {
     margin-top: 0;
     margin-bottom: 2rem;
     text-align: left;
-    color: #191A23;
-    background-color: #BBE04C;
+    color: var(--color-text);
+    background-color: var(--color-accent);
     border-radius: 8px;
     padding: 5px 10px;
     display: inline-block;
-    box-shadow: 0 4px 0 0 #191A23;
+    box-shadow: 0 4px 0 0 var(--color-text);
+}
+
+.dark #markdown h1 {
+    color: var(--color-text-dark);
+    box-shadow: 0 4px 0 0 var(--color-offblack);
 }
 
 #markdown h1::before {
     content: "// ";
-    color: #191A23;
+    color: var(--color-text);
     font-weight: bold;
+}
+
+.dark #markdown h1::before {
+    color: var(--color-text-dark);
 }
 
 #markdown h2 {
     font-size: 2rem;
-    color: #191A23;
+    color: var(--color-text);
 }
 
 #markdown h3 {
     font-size: 1.5rem;
-    color: #191A23;
+    color: var(--color-text);
 }
 
 #markdown h4 {
     font-size: 1.25rem;
-    color: #191A23;
+    color: var(--color-text);
 }
 
 #markdown h5 {
     font-size: 1.1rem;
-    color: #191A23;
+    color: var(--color-text);
 }
 
 #markdown h6 {
     font-size: 1rem;
-    color: #191A23;
+    color: var(--color-text);
 }
 
 #markdown p,
 #markdown li {
     font-size: 1.1rem;
-    color: #191A23;
+    color: var(--color-text);
 }
 
 #markdown ul, #markdown ol {
@@ -236,11 +335,17 @@ li .dropdown-item-mobile {
     border-spacing: 0;
     margin-bottom: 1.5rem;
     font-size: 1.1rem;
-    color: #191A23;
-    border: 1px solid #191A23;
+    color: var(--color-text);
+    border: 1px solid var(--color-text);
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 4px 0 0 #191A23;
+    box-shadow: 0 4px 0 0 var(--color-text);
+}
+
+.dark #markdown table {
+    color: var(--color-text);
+    border: 1px solid var(--color-offwhite);
+    box-shadow: 0 4px 0 0 var(--color-offwhite);
 }
 
 #markdown th,
@@ -251,36 +356,60 @@ li .dropdown-item-mobile {
     border-radius: 0;
 }
 
+.dark #markdown th,
+#markdown td {
+    border: 1px solid var(--color-offwhite);
+    padding: 12px 15px;
+    text-align: left;
+    border-radius: 0;
+}
+
 #markdown th {
     background-color: #f2f2f2;
-    color: #191A23;
+    color: var(--color-text);
+    font-weight: bolder;
+}
+
+.dark #markdown th {
+    background-color: var(--color-offblack);
+    color: var(--color-text);
     font-weight: bolder;
 }
 
 #markdown blockquote {
-    background-color: #F3F3F3;
-    padding: 20px;
+    background-color: var(--color-offwhite);
+    padding: 20px 20px 7px 20px;
     margin-bottom: 20px;
-    color: #191A23;
-    border: 1px solid #191A23;
+    color: var(--color-text);
+    border: 1px solid var(--color-text);
     border-radius: 10px;
-    box-shadow: 0 4px 0 0 #191A23;
+    box-shadow: 0 4px 0 0 var(--color-text);
+}
+
+.dark #markdown blockquote {
+    background-color: var(--color-offblack);
+    padding: 20px 20px 7px 20px;
+    margin-bottom: 20px;
+    color: var(--color-text);
+    border: 1px solid var(--color-offwhite);
+    border-radius: 10px;
+    box-shadow: 0 4px 0 0 var(--color-offwhite);
 }
 
 #markdown a {
-    color: #6A9500;
+    color: var(--color-link);
     text-decoration: none;
     transition: color 0.3s;
 }
 
 #markdown a:hover {
-    color: #6A9500;
+    color: var(--color-link);
     text-decoration: underline;
 }
 
 #markdown code {
     background-color: #f2f2f2;
-    color: #191A23;
+    color: var(--color-text);
     padding: 0.2rem 0.4rem;
     border-radius: 4px;
     font-size: 1.05rem;
@@ -321,14 +450,14 @@ li .dropdown-item-mobile {
 }
 
 .footer-nav a {
-    color: #191A23;
+    color: var(--color-text);
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .footer-nav a:hover,
 .footer-nav a:focus {
-    color: #191A23;
+    color: var(--color-text);
     text-decoration: underline;
     outline: none;
 }
@@ -337,7 +466,6 @@ li .dropdown-item-mobile {
    404 Error Page
    ======================== */
 .page-not-found {
-    margin-top: 10rem;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -350,12 +478,12 @@ li .dropdown-item-mobile {
 .page-not-found .error-code {
     font-size: 6rem;
     font-weight: bold;
-    color: #d9534f;
+    color: var(--color-error);
 }
 
 .page-not-found .error-message {
     font-size: 1.25rem;
-    color: #191A23;
+    color: var(--color-text);
 }
 
 
@@ -368,7 +496,6 @@ li .dropdown-item-mobile {
     }
 }
 
-
 @media (min-width: 992px) {
     .dropdown-item-mobile {
         display: none !important;
@@ -376,8 +503,16 @@ li .dropdown-item-mobile {
 }
 
 @media (max-width: 576px) {
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+
+    .hero-section p {
+        font-size: 1rem;
+    }
+
     #markdown {
-        padding: 2rem 0 0 0;
+        padding: 1rem 0 0 0;
     }
 
     #markdown h1 {

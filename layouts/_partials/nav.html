@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center" href="{{ "/" | relURL }}">
             <img src="{{ "images/logo.svg" | relURL }}" alt="iFSR Logo" height="50" class="me-2">
@@ -37,5 +37,12 @@
                 {{ end }}
             </ul>
         </div>
+        <div class="d-none d-lg-flex ms-3">
+            <button id="theme-switch" class="btn btn-link nav-link">
+                <img id="light-icon" src="{{ "/icons/light.svg" | relURL }}" alt="Light Mode Icon" class="theme-icon">
+                <img id="dark-icon" src="{{ "/icons/dark.svg" | relURL }}" alt="Dark Mode Icon" class="theme-icon">
+            </button>
+        </div>
+
     </div>
 </nav>
