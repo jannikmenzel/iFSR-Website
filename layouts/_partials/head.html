@@ -14,8 +14,23 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"
 ></script>
+<!-- Darkmode JS -->
+<script>
+    (function() {
+        try {
+            const stored = localStorage.getItem("theme");
+            const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            const isDark = stored ? stored === "dark" : systemPrefersDark;
+            if (isDark) {
+                document.documentElement.classList.add("dark");
+            }
+        } catch (e) {
+            // ignore errors
+        }
+    })();
+</script>
 <!-- Exo 2 Font -->
-<link href="https://fonts.googleapis.com/css2?family=Cairo&family=Exo+2:wght@600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;500;600&display=swap" rel="stylesheet" />
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}

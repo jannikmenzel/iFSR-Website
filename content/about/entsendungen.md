@@ -9,7 +9,11 @@ In den nachfolgenden Gremien sitzen studentische Vertreter:innen der Fachschaft 
 
 ---
 
-## 🏛️ Studierendenrat (StuRa)
+{{< details
+title="Studierendenrat (StuRa)"
+number="01" >}}
+
+---
 
 Der **Studierendenrat** ist das höchste Gremium der studentischen Selbstverwaltung. Er tagt **alle zwei Wochen donnerstags um 19:30 Uhr** und besteht derzeit aus 5 Geschäftsbereichen:
 
@@ -31,9 +35,15 @@ Er hat 37 Mitglieder, die von den Fachschaften entsandt werden – ein guter Ort
 - **Roman Roller** – weiterer Vertreter – [roman.roller@ifsr.de](mailto:roman.roller@ifsr.de)
 - **Arthur Wolf** – Ersatzvertreter – [arthur.wolf@ifsr.de](mailto:arthur.wolf@ifsr.de)
 
+{{< /details >}}
+
 ---
 
-## 🏫 Fakultätsrat (FR)
+{{< details
+title="Fakultätsrat (FR)"
+number="02" >}}
+
+---
 
 Der **Fakultätsrat** ist das "Parlament der Fakultät". Er entscheidet in monatlichen Sitzungen über organisatorische, finanzielle und personelle Belange.
 
@@ -55,9 +65,15 @@ Der **Fakultätsrat** ist das "Parlament der Fakultät". Er entscheidet in monat
 - **Joachim Stramke** – [joachim.stramke@ifsr.de](mailto:joachim.stramke@ifsr.de)
 - **Kenny Weidemann** – [kenny.weidemann@ifsr.de](mailto:kenny.weidemann@ifsr.de)
 
+{{< /details >}}
+
 ---
 
-## 📝 Prüfungsausschüsse (veraltet, wird bald aktualisiert)
+{{< details
+title="Prüfungsausschüsse (veraltet, wird bald aktualisiert)"
+number="03" >}}
+
+---
 
 Zuständig für:
 - Prüfungsanerkennungen
@@ -76,9 +92,15 @@ Für jeden Studiengang existiert ein eigener Ausschuss.
 
 **Wir suchen Nachfolger:innen für Lehramtsvertretungen.**
 
+{{< /details >}}
+
 ---
 
-## 📚 Studienkommissionen (veraltet, wird bald aktualisiert)
+{{< details
+title="Studienkommissionen (veraltet, wird bald aktualisiert)"
+number="04" >}}
+
+---
 
 Diese Kommissionen beraten und beschließen Änderungen an Studien- und Prüfungsordnungen.
 
@@ -89,9 +111,15 @@ Diese Kommissionen beraten und beschließen Änderungen an Studien- und Prüfung
 - **CMS**: Rajasekar Sankar, Muhammad Irtaza Khan u.a.
 - **CL**: Lydia Will, Helene Hausmann
 
+{{< /details >}}
+
 ---
 
-## 👩‍🏫 Studentische Studiengangskoordinator:innen (2025)
+{{< details
+title="Studentische Studiengangskoordinator:innen (2025)"
+number="05" >}}
+
+---
 
 **Zuständig für:**
 - interne Organisation & Kommunikation in den Studiengängen
@@ -103,9 +131,15 @@ Diese Kommissionen beraten und beschließen Änderungen an Studien- und Prüfung
 - **Lehramt (alle)**: Eliah Lohr
 - **CSE**: Wolfgang Walther
 
+{{< /details >}}
+
 ---
 
-## ✅ Eignungsfeststellungsausschüsse
+{{< details
+title="Eignungsfeststellungsausschüsse"
+number="06" >}}
+
+---
 
 **Mitglieder:**
 - **Informatik (M.Sc.)**: Franz Rodestock
@@ -115,9 +149,15 @@ Diese Kommissionen beraten und beschließen Änderungen an Studien- und Prüfung
 
 > In den Programmen **DSE** und **CL** suchen wir engagierte Studierende zur Mitwirkung!
 
+{{< /details >}}
+
 ---
 
-## 🛠 Weitere Gremien
+{{< details
+title="Weitere Gremien"
+number="07" >}}
+
+---
 
 | Bezeichnung                                | Studentische Mitglieder             |
 |--------------------------------------------|-------------------------------------|
@@ -126,3 +166,7 @@ Diese Kommissionen beraten und beschließen Änderungen an Studien- und Prüfung
 | Deutschlandstipendium                      | Dharshan Barkur, Macy Schreiber (V) |
 | Institutsrat SMT                           | Jakob Steinberg                     |
 | Lehrsammlung „Historische Computertechnik“ | Lydia Will                          |
+
+{{< /details >}}
+
+---

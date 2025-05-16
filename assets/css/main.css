@@ -9,8 +9,8 @@
     --color-primary-button-light: #FFFFFF;
     --color-link: #405C00;
     --color-error: #d9534f;
-    --color-offwhite: #F3F3F3;
-    --color-offblack: #1D1F29
+    --color-off: #F3F3F3;
+    --color-light: #f8f9fa;
 }
 
 .dark {
@@ -18,6 +18,7 @@
     --color-text: #F2F2F2;
     --color-text-dark: #191A23;
     --color-link: #BBE04C;
+    --color-off: #1D1F29;
 }
 
 /* ========================
@@ -112,6 +113,7 @@ li .dropdown-item-mobile {
 }
 
 .show-on-hover:hover > .dropdown-menu {
+    background-color: var(--color-off);
     display: block;
     position: absolute;
     top: 100%;
@@ -119,29 +121,22 @@ li .dropdown-item-mobile {
     margin-top: 0;
 }
 
-.dark .show-on-hover:hover > .dropdown-menu {
-    background-color: var(--color-offblack);
-}
-
 .dropdown-menu .dropdown-item:active {
-    background-color: #e0e0e0;
+    background-color: var(--color-off);
     color: var(--color-text);
 }
 
 .dropdown-menu .dropdown-item {
+    color: var(--color-text);
     padding: 0.3rem 0 0.3rem 1rem;
 }
 
-.dark .dropdown-menu .dropdown-item {
+.dropdown-menu .dropdown-item:active {
+    background-color: var(--color-off);
     color: var(--color-text);
 }
 
-.dark .dropdown-menu .dropdown-item:active {
-    background-color: var(--color-offblack);
-    color: var(--color-text);
-}
-
-.dark .dropdown-menu .dropdown-item:hover {
+.dropdown-menu .dropdown-item:hover {
     background-color: var(--color-accent);
     color: var(--color-text-dark);
 }
@@ -254,177 +249,6 @@ li .dropdown-item-mobile {
 }
 
 /* ========================
-   Markdown Content
-   ======================== */
-#markdown {
-    max-width: 80%;
-    margin: 0 auto;
-    padding: 3rem 0 0 0;
-    hyphens: auto;
-    text-align: left;
-    line-height: 1.8;
-    color: var(--color-text);
-}
-
-#markdown h1 {
-    font-size: 2.5rem;
-    margin-top: 0;
-    margin-bottom: 2rem;
-    text-align: left;
-    color: var(--color-text);
-    background-color: var(--color-accent);
-    border-radius: 8px;
-    padding: 5px 10px;
-    display: inline-block;
-    box-shadow: 0 4px 0 0 var(--color-text);
-}
-
-.dark #markdown h1 {
-    color: var(--color-text-dark);
-    box-shadow: 0 4px 0 0 var(--color-offblack);
-}
-
-#markdown h1::before {
-    content: "// ";
-    color: var(--color-text);
-    font-weight: bold;
-}
-
-.dark #markdown h1::before {
-    color: var(--color-text-dark);
-}
-
-#markdown h2 {
-    font-size: 2rem;
-    color: var(--color-text);
-}
-
-#markdown h3 {
-    font-size: 1.5rem;
-    color: var(--color-text);
-}
-
-#markdown h4 {
-    font-size: 1.25rem;
-    color: var(--color-text);
-}
-
-#markdown h5 {
-    font-size: 1.1rem;
-    color: var(--color-text);
-}
-
-#markdown h6 {
-    font-size: 1rem;
-    color: var(--color-text);
-}
-
-#markdown p,
-#markdown li {
-    font-size: 1.1rem;
-    color: var(--color-text);
-}
-
-#markdown ul, #markdown ol {
-    padding-left: 20px;
-}
-
-#markdown table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin-bottom: 1.5rem;
-    font-size: 1.1rem;
-    color: var(--color-text);
-    border: 1px solid var(--color-text);
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 0 0 var(--color-text);
-}
-
-.dark #markdown table {
-    color: var(--color-text);
-    border: 1px solid var(--color-offwhite);
-    box-shadow: 0 4px 0 0 var(--color-offwhite);
-}
-
-#markdown th,
-#markdown td {
-    border: 1px solid #ccc;
-    padding: 12px 15px;
-    text-align: left;
-    border-radius: 0;
-}
-
-.dark #markdown th,
-#markdown td {
-    border: 1px solid var(--color-offwhite);
-    padding: 12px 15px;
-    text-align: left;
-    border-radius: 0;
-}
-
-#markdown th {
-    background-color: #f2f2f2;
-    color: var(--color-text);
-    font-weight: bolder;
-}
-
-.dark #markdown th {
-    background-color: var(--color-offblack);
-    color: var(--color-text);
-    font-weight: bolder;
-}
-
-#markdown blockquote {
-    background-color: var(--color-offwhite);
-    padding: 20px 20px 7px 20px;
-    margin-bottom: 20px;
-    color: var(--color-text);
-    border: 1px solid var(--color-text);
-    border-radius: 10px;
-    box-shadow: 0 4px 0 0 var(--color-text);
-}
-
-.dark #markdown blockquote {
-    background-color: var(--color-offblack);
-    padding: 20px 20px 7px 20px;
-    margin-bottom: 20px;
-    color: var(--color-text);
-    border: 1px solid var(--color-offwhite);
-    border-radius: 10px;
-    box-shadow: 0 4px 0 0 var(--color-offwhite);
-}
-
-#markdown a {
-    color: var(--color-link);
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-#markdown a:hover {
-    color: var(--color-link);
-    text-decoration: underline;
-}
-
-#markdown code {
-    background-color: #f2f2f2;
-    color: var(--color-text);
-    padding: 0.2rem 0.4rem;
-    border-radius: 4px;
-    font-size: 1.05rem;
-}
-
-#markdown img {
-    width: 100%;
-    max-height: 60vh;
-    object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    margin-top: 50px;
-}
-
-/* ========================
    Footer
    ======================== */
 .footer {
@@ -499,48 +323,5 @@ li .dropdown-item-mobile {
 @media (min-width: 992px) {
     .dropdown-item-mobile {
         display: none !important;
-    }
-}
-
-@media (max-width: 576px) {
-    .hero-section h1 {
-        font-size: 2rem;
-    }
-
-    .hero-section p {
-        font-size: 1rem;
-    }
-
-    #markdown {
-        padding: 1rem 0 0 0;
-    }
-
-    #markdown h1 {
-        font-size: 1.8rem;
-    }
-
-    #markdown h2 {
-        font-size: 1.6rem;
-    }
-
-    #markdown h3 {
-        font-size: 1.4rem;
-    }
-
-    #markdown h4 {
-        font-size: 1.2rem;
-    }
-
-    #markdown h5 {
-        font-size: 1.1rem;
-    }
-
-    #markdown h6 {
-        font-size: 1rem;
-    }
-
-    #markdown p,
-    #markdown li {
-        font-size: 1rem;
     }
 }

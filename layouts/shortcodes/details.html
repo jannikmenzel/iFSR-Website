@@ -1,0 +1,25 @@
+<div class="details" onclick="toggleDetails(this)">
+    <div class="details-header">
+        <h2 class="details-text">
+            {{ with .Get "number" }}<span class="details-number">{{ . }}</span> {{ end }}
+            {{ .Get "title" }}
+        </h2>
+        <div class="details-icon">
+            <svg class="icon-plus" viewBox="0 0 24 24" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M15 12H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                <path d="M15 12H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                      transform="rotate(90 12 12)"/>
+            </svg>
+            <svg class="icon-minus" style="display: none;" viewBox="0 0 24 24" fill="none"
+                 xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M15 12H9" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+        </div>
+    </div>
+    <div class="details-content">
+        {{ .Inner | markdownify }}
+    </div>
+</div>

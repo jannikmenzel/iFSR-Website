@@ -1,3 +1,6 @@
+/* ========================
+   Darkmode
+   ======================== */
 document.addEventListener("DOMContentLoaded", () => {
     const themeSwitch = document.getElementById("theme-switch");
     const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
@@ -6,20 +9,11 @@ document.addEventListener("DOMContentLoaded", () => {
         document.documentElement.classList.toggle("dark", theme === "dark");
     };
 
-    const getStoredTheme = () => localStorage.getItem("theme");
     const setStoredTheme = (theme) => localStorage.setItem("theme", theme);
-
-    // Initial load
-    const savedTheme = getStoredTheme();
-    if (savedTheme) {
-        applyTheme(savedTheme);
-    } else {
-        applyTheme(prefersDarkScheme.matches ? "dark" : "light");
-    }
 
     // system changes
     prefersDarkScheme.addEventListener("change", (e) => {
-        const saved = getStoredTheme();
+        const saved = localStorage.getItem("theme");
         if (!saved) {
             applyTheme(e.matches ? "dark" : "light");
         }
@@ -32,7 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
         applyTheme(newTheme);
         setStoredTheme(newTheme);
     });
-
 
     const updateBodyThemeAttr = () => {
         const current = document.documentElement.classList.contains("dark") ? "dark" : "light";
@@ -48,3 +41,18 @@ document.addEventListener("DOMContentLoaded", () => {
         updateBodyThemeAttr();
     });
 });
+
+/* ========================
+   Details Toggle
+   ======================== */
+window.toggleDetails = function(element) {
+    element.classList.toggle('expanded');
+
+    const plusIcon = element.querySelector('.icon-plus');
+    const minusIcon = element.querySelector('.icon-minus');
+
+    const isExpanded = element.classList.contains('expanded');
+
+    plusIcon.style.display = isExpanded ? 'none' : 'inline';
+    minusIcon.style.display = isExpanded ? 'inline' : 'none';
+};
