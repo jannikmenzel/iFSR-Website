@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center" href="{{ "/" | relURL }}">
-            <img src="{{ "images/logo.svg" | relURL }}" alt="iFSR Logo" height="50" class="me-2">
+            <img src="{{ "images/logo.svg" | relURL }}" alt="iFSR Logo" height="42">
             iFSR
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
@@ -16,9 +16,11 @@
                         {{ $children := where $items "parent" $i.name }}
                         {{ if gt (len $children) 0 }}
                             <li class="nav-item dropdown d-flex align-items-center show-on-hover">
-                                <a class="nav-link ps-0" href="{{ $i.url | relURL }}">{{ $i.name }}</a>
+                                <!-- Dropdown Parent -->
+                                <a class="nav-link" href="{{ $i.url | relURL }}">{{ $i.name }}</a>
                                 <ul class="dropdown-menu">
                                     {{ range $child := $children }}
+                                        <!-- Dropdown Child Desktop -->
                                         <li><a class="dropdown-item" href="{{ $child.url | relURL }}">{{ $child.name }}</a></li>
                                     {{ end }}
                                 </ul>
@@ -26,11 +28,13 @@
                             <li>
                                 <div class="d-lg-none d-flex flex-column dropdown-item-mobile">
                                     {{ range $child := $children }}
-                                        <a class="nav-link ps-0" href="{{ $child.url | relURL }}">{{ $child.name }}</a>
+                                        <!-- Dropdown Child Mobile -->
+                                    <div class="nav-item-mobile"><a class="nav-link" href="{{ $child.url | relURL }}">{{ $child.name }}</a></div>
                                     {{ end }}
                                 </div>
                             </li>
                         {{ else }}
+                            <!-- Nav Item -->
                             <li class="nav-item"><a class="nav-link" href="{{ $i.url | relURL }}">{{ $i.name }}</a></li>
                         {{ end }}
                     {{ end }}

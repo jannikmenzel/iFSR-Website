@@ -9,10 +9,7 @@ Der Fachschaftsrat Informatik steht dir in sämtlichen Studienbelangen zur Seite
 
 ## 📱 Social Media
 
-- [Mailinglisten](https://lists.ifsr.de/mailman3/lists/)
-- [Instagram](https://instagram.com/fsr.inf)
-- [Telegram](https://t.me/fsr_inf)
-- [Matrix](https://matrix.to/#/#fsr-inf-studierende:matrix.org)
+[📧 Mailinglisten](https://lists.ifsr.de/mailman3/lists/) · [📸 Instagram](https://instagram.com/fsr.inf) · [✈️ Telegram](https://t.me/fsr_inf) · [💬 Matrix](https://matrix.to/#/#fsr-inf-studierende:matrix.org)
 
 ## 📬 Externe Kontaktanfragen
 

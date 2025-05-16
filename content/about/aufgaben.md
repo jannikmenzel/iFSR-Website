@@ -15,6 +15,8 @@ Die Admins stellen sicher, dass die Infrastruktur funktioniert:
 
 > 📧 [fsr@ifsr.de](mailto:fsr@ifsr.de)
 
+---
+
 ### 🚀 Orga der Erstsemestereinführung (ESE)
 Über ein halbes Jahr vor der Veranstaltung beginnt die Planung. Verantwortliche Personen koordinieren viele Helfer\_innen in Bereichen wie:
 - Veranstaltungsplanung
@@ -23,6 +25,8 @@ Die Admins stellen sicher, dass die Infrastruktur funktioniert:
 - Öffentlichkeitsarbeit
 
 > 📧 Kontakt: [ese-orga@ifsr.de](mailto:ese-orga@ifsr.de)
+
+---
 
 ### 📢 AG Öffentlichkeitsarbeit
 Wir kümmern uns um:
@@ -34,6 +38,8 @@ Wir kümmern uns um:
 Kreative Köpfe willkommen!  
 > 📧 [pr@ifsr.de](mailto:pr@ifsr.de)
 
+---
+
 ### 🌱 AG Nachhaltigkeit
 Wir setzen uns für ressourcenschonendes Arbeiten ein:
 - Nachhaltigkeit bei der ESE
@@ -41,6 +47,8 @@ Wir setzen uns für ressourcenschonendes Arbeiten ein:
 - nachhaltige FSR-Aktivitäten
 
 > 📧 [nachhaltigkeit@ifsr.de](mailto:nachhaltigkeit@ifsr.de)
+
+---
 
 ### 🎓 AG Lehre
 Kernaufgabe: Verbesserung der Lehre!
@@ -50,6 +58,8 @@ Kernaufgabe: Verbesserung der Lehre!
 - Mitarbeit in Studienkommissionen
 
 > 📧 [fsr@ifsr.de](mailto:fsr@ifsr.de)
+
+---
 
 ### 🎲 Spieleabend-Taskforce
 Wir organisieren die beliebten Spieleabende:
