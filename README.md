@@ -40,7 +40,8 @@ Anschließend kannst du die Website im Browser unter [http://localhost:1313](htt
 - `content/` – Inhalte der Website (Seiten im Markdown Format)
 - `layouts/` – Individuelle Layouts und Templates
 - `static/` – Statische Dateien (z.B. Bilder, PDFs)
-- `static/` – CSS, JavaScript Dateien und Images
+- `assets/` – CSS, JavaScript Dateien und Images
+- `data/` – Navigation Config-Datei
 - `hugo.toml` – Hauptkonfigurationsdatei für Hugo
 
 ## 💡 Entwicklungs-Hinweise
