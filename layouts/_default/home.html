@@ -1,4 +1,59 @@
 {{ define "main" }}
-  {{ partial "hero.html" . }}
-  {{ .Content }}
+    {{ partial "hero.html" . }}
+    <section class="about-section">
+        <div class="container">
+            <div class="mb-4">
+                <img src="{{ (resources.Get "images/hero-image.jpg").RelPermalink }}" alt="Hero Bild"
+                     class="about-image img-fluid w-100">
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Unterstützung im Studium
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Wir bieten euch Beratung und Hilfe bei allen Fragen rund ums
+                                Informatik-Studium – egal ob bei der Kurswahl, Prüfungen oder einfach, wenn du mal nicht
+                                weiterweißt.</p>
+                        </div>
+                        <div class="card-button">
+                            <a href="#" class="btn btn-primary">Mehr erfahren</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Veranstaltungen & Events
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Von Spieleabenden bis zu Vernetzungstreffen. Wir organisieren
+                                vielfältige
+                                Events für alle Studierenden. Triff andere Studis, lerne Neues und hab einfach Spaß
+                                abseits vom Uni-Alltag.</p>
+                        </div>
+                        <div class="card-button">
+                            <a href="#" class="btn btn-primary">Mehr erfahren</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-header">
+                            Mitmachen & Engagement
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Werde Teil des iFSR und bring dich ein! Egal ob du bei Events
+                                helfen willst, oder mitreden möchtest. Bei uns kannst du
+                                das Studium mitgestalten und neue Erfahrungen sammeln.</p>
+                        </div>
+                        <div class="card-button">
+                            <a href="#" class="btn btn-primary">Mehr erfahren</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 {{ end }}

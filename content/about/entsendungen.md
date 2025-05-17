@@ -37,8 +37,6 @@ Er hat 37 Mitglieder, die von den Fachschaften entsandt werden – ein guter Ort
 
 {{< /details >}}
 
----
-
 {{< details
 title="Fakultätsrat (FR)"
 number="02" >}}
@@ -67,8 +65,6 @@ Der **Fakultätsrat** ist das "Parlament der Fakultät". Er entscheidet in monat
 
 {{< /details >}}
 
----
-
 {{< details
 title="Prüfungsausschüsse (veraltet, wird bald aktualisiert)"
 number="03" >}}
@@ -94,8 +90,6 @@ Für jeden Studiengang existiert ein eigener Ausschuss.
 
 {{< /details >}}
 
----
-
 {{< details
 title="Studienkommissionen (veraltet, wird bald aktualisiert)"
 number="04" >}}
@@ -112,8 +106,6 @@ Diese Kommissionen beraten und beschließen Änderungen an Studien- und Prüfung
 - **CL**: Lydia Will, Helene Hausmann
 
 {{< /details >}}
-
----
 
 {{< details
 title="Studentische Studiengangskoordinator:innen (2025)"
@@ -133,8 +125,6 @@ number="05" >}}
 
 {{< /details >}}
 
----
-
 {{< details
 title="Eignungsfeststellungsausschüsse"
 number="06" >}}
@@ -150,8 +140,6 @@ number="06" >}}
 > In den Programmen **DSE** und **CL** suchen wir engagierte Studierende zur Mitwirkung!
 
 {{< /details >}}
-
----
 
 {{< details
 title="Weitere Gremien"

@@ -45,11 +45,12 @@
 .details {
     cursor: pointer;
     background-color: var(--color-off);
-    padding: 5px 10px 10px 20px;
+    padding: 5px 20px 10px 20px;
     color: var(--color-text);
     border: 1px solid var(--color-text);
     border-radius: 30px;
     box-shadow: 0 4px 0 0 var(--color-text);
+    margin: 2rem 0 2rem 0;
 }
 
 .details.expanded {
@@ -59,11 +60,10 @@
 .dark #markdown .details.expanded {
     border: 1px solid var(--color-off) !important;
     box-shadow: 0 4px 0 0 var(--color-off) !important;
-    color: var(--color-text-dark) !important;
 }
 
 .dark #markdown .details.expanded .details-content * {
-    color: var(--color-text-dark) !important;
+    color: var(--color-text-dark);
 }
 
 .details-header {
@@ -91,9 +91,26 @@
     line-height: 1;
 }
 
-#markdown .details.expanded .details-text,
-#markdown .details.expanded .details-number {
+.dark #markdown .details.expanded .details-text,
+.dark #markdown .details.expanded .details-number {
     color: var(--color-text-dark) !important;
+}
+
+.dark #markdown .details.expanded blockquote {
+    background-color: var(--color-off-dark);
+    border: 1px solid var(--color-text-dark);
+    box-shadow: 0 4px 0 0 var(--color-text-dark);
+}
+
+.dark #markdown .details.expanded table {
+    color: var(--color-text);
+    border: 1px solid var(--color-text-dark);
+    box-shadow: 0 4px 0 0 var(--color-text-dark);
+}
+
+.dark #markdown .details.expanded th,
+.dark #markdown .details.expanded td {
+    background-color: var(--color-off-dark);
 }
 
 .details-icon {
@@ -117,10 +134,5 @@
 }
 
 #markdown .details.expanded .details-content {
-    color: var(--color-text-dark) !important;
     display: block;
-}
-
-#markdown .details.expanded .details-content * {
-    color: inherit !important;
 }

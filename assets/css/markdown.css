@@ -98,7 +98,6 @@
 }
 
 #markdown th {
-    background-color: var(--color-off);
     color: var(--color-text);
     font-weight: bolder;
 }

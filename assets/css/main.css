@@ -11,6 +11,7 @@
     --color-link: #607C0E;
     --color-error: #d9534f;
     --color-off: #F3F3F3;
+    --color-off-dark: #1D1F29;
     --color-light: #F8F9Fa;
 }
 
@@ -20,6 +21,7 @@
     --color-text-dark: #191A23;
     --color-link: #BBE04C;
     --color-off: #1D1F29;
+    --color-off-dark: #F3F3F3;
 }
 
 /* ========================
@@ -313,6 +315,42 @@ li .dropdown-item-mobile {
 }
 
 /* ========================
+   About
+   ======================== */
+.about-section {
+    margin: 9rem 0 3rem 0;
+}
+
+.about-image {
+    max-height: 28rem;
+    object-fit: cover;
+    overflow: hidden;
+    display: block;
+    border-radius: 30px;
+}
+
+.card {
+    background-color: var(--color-off);
+    color: var(--color-text);
+    border: 1px solid var(--color-text);
+    border-radius: 30px;
+    box-shadow: 0 4px 0 0 var(--color-text);
+}
+
+.card-header {
+    font-weight: 600;
+    font-size: 1.25rem;
+    background-color: transparent;
+    border-bottom: none;
+    color: var(--color-text);
+    padding: 1.5rem 0 0 1.25rem;
+}
+
+.card-body, .card-button {
+    padding: 1rem 1.25rem;
+}
+
+/* ========================
    Button
    ======================== */
 .btn-primary {
@@ -322,9 +360,9 @@ li .dropdown-item-mobile {
 }
 
 .btn-primary:hover, .btn-primary:active {
-    color: var(--color-primary-button-dark);
-    background-color: transparent;
-    border: 1px solid var(--color-primary-button-dark);
+    color: var(--color-primary-button-dark) !important;
+    background-color: transparent !important;
+    border: 1px solid var(--color-primary-button-dark) !important;
     box-shadow: 0 4px 0 0 var(--color-primary-button-dark);
 }
 
@@ -335,9 +373,9 @@ li .dropdown-item-mobile {
 }
 
 .dark .btn-primary:hover, .dark.btn.btn-primary:active {
-    color: var(--color-text);
+    color: var(--color-text) !important;
     background-color: transparent;
-    border: 1px solid var(--color-accent);
+    border: 1px solid var(--color-accent) !important;
     box-shadow: 0 4px 0 0 var(--color-accent);
 }
 
@@ -348,25 +386,23 @@ li .dropdown-item-mobile {
 }
 
 .btn-secondary:hover, .btn-secondary:active {
-    color: var(--color-primary-button-dark);
-    background-color: transparent;
+    color: var(--color-primary-button-dark) !important;
+    background-color: transparent !important;
     border-color: var(--color-primary-button-dark);
     box-shadow: 0 4px 0 0 var(--color-primary-button-dark);
 }
 
 .dark .btn-secondary {
+    background-color: transparent;
     color: var(--color-primary-button-light);
     border: 1px solid var(--color-primary-button-light);
 }
 
-.dark .btn-secondary:hover {
-    color: var(--color-primary-button-light);
+.dark .btn-secondary:hover, .dark .btn-secondary:active {
+    background-color: transparent;
+    color: var(--color-primary-button-light) !important;
     border-color: var(--color-primary-button-light);
     box-shadow: 0 4px 0 0 var(--color-primary-button-light);
-}
-
-.dark .btn-secondary:active {
-    color: var(--color-primary-button-light) !important;
 }
 
 /* ========================
@@ -377,7 +413,7 @@ footer {
 }
 
 .footer {
-    padding: 1.5rem 0;
+    padding: 3rem 0;
     width: 100%;
     margin-top: auto;
     text-align: center;
