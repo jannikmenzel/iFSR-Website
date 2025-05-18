@@ -351,6 +351,18 @@ li .dropdown-item-mobile {
     padding: 1rem 1.25rem;
 }
 
+.ese-section .card-header {
+    font-size: 2rem;
+}
+
+.ese-section .card-body {
+    font-size: 1.1rem;
+    align-content: center;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* ========================
    Button
    ======================== */
@@ -512,6 +524,10 @@ footer {
 
     .hero-section {
         padding: 0 !important;
+    }
+
+    .ese-section .card-body {
+        max-width: 100%;
     }
 }
 

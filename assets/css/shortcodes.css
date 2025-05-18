@@ -66,6 +66,10 @@
     color: var(--color-text-dark);
 }
 
+#markdown .details.expanded .details-content * {
+    color: var(--color-text);
+}
+
 .details-header {
     display: flex;
     justify-content: space-between;
@@ -135,4 +139,12 @@
 
 #markdown .details.expanded .details-content {
     display: block;
+}
+
+#markdown .details.expanded .details-content a {
+    text-decoration: underline !important;
+}
+
+#markdown .details.expanded .details-content a:hover {
+    text-decoration: none !important;
 }

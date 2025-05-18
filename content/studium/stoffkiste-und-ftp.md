@@ -21,6 +21,6 @@ Unser **FTP-Server** bietet Zugriff auf eine Vielzahl von Materialien aus dem St
 - Vorlesungsprotokolle
 - Spickzettel
 
-Du kannst mit einem beliebigen FTP-Client (z.B. FileZilla) oder im Browser auf die Dateien zugreifen.
+Du kannst mit einem beliebigen FTP-Client (z.B. FileZilla) oder im Browser auf die Dateien zugreifen. Der Zugriff ist allerdings nur aus dem Uni-Netzwerk der TU Dresden möglich – also z.B. über eduroam oder Rechner innerhalb des Campusnetzes. Wenn du von außerhalb zugreifen möchtest, benötigst du eine VPN-Verbindung zur TU Dresden.
 
 > 🔗 Zugriff: [ftp.ifsr.de](https://ftp.ifsr.de/)

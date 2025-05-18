@@ -47,6 +47,12 @@ name = "Ordnungen"
 url = "/about/ordnungen"
 weight = 5
 
+[[menu.main]]
+parent = "Über uns"
+name = "Uniwahlen"
+url = "/about/uniwahlen"
+weight = 6
+
 # ====================
 # Hauptmenü: Studium
 # ====================
