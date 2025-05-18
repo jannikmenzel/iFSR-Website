@@ -515,7 +515,10 @@ footer {
 
     .nav-item:hover, .nav-item:active {
         background-color: var(--color-accent);
-        color: var(--color-text);
+    }
+
+    .nav-item:hover .nav-link, .nav-item:active .nav-link {
+        color: var(--color-dark) !important;
     }
 
     .dropdown-item-mobile {
