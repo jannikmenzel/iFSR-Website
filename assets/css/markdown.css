@@ -145,14 +145,6 @@
    Responsive Design
    ======================== */
 @media (max-width: 576px) {
-    .hero-section h1 {
-        font-size: 2rem;
-    }
-
-    .hero-section p {
-        font-size: 1rem;
-    }
-
     #markdown {
         padding: 1rem 0 0 0;
     }

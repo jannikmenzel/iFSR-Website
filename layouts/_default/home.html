@@ -1,11 +1,13 @@
 {{ define "main" }}
+<div class="d-flex flex-column-reverse flex-md-column">
     {{ partial "hero.html" . }}
+    <div class="container">
+        <img src="{{ (resources.Get "images/hero-image.jpg").RelPermalink }}" alt="Hero Bild"
+             class="about-image img-fluid w-100">
+    </div>
+</div>
     <section class="about-section">
         <div class="container">
-            <div class="mb-4">
-                <img src="{{ (resources.Get "images/hero-image.jpg").RelPermalink }}" alt="Hero Bild"
-                     class="about-image img-fluid w-100">
-            </div>
             <div class="row mt-5">
                 <div class="col-md-4 mb-4">
                     <div class="card h-100">

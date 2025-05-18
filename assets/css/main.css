@@ -13,6 +13,7 @@
     --color-off: #F3F3F3;
     --color-off-dark: #1D1F29;
     --color-light: #F8F9Fa;
+    --color-dark: #191A23;
 }
 
 .dark {
@@ -144,12 +145,12 @@ li .dropdown-item-mobile {
 
 .dropdown-menu .dropdown-item:active {
     background-color: var(--color-off);
-    color: var(--color-text);
+    color: var(--color-dark);
 }
 
 .dropdown-menu .dropdown-item:hover {
     background-color: var(--color-accent);
-    color: var(--color-text-dark);
+    color: var(--color-dark);
 }
 
 #theme-switch {
@@ -185,8 +186,7 @@ li .dropdown-item-mobile {
    Hero
    ======================== */
 .hero-section {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding: 6rem 0 6rem 0;
     max-width: 45rem;
     margin: 5rem auto;
     text-align: center;
@@ -318,7 +318,7 @@ li .dropdown-item-mobile {
    About
    ======================== */
 .about-section {
-    margin: 9rem 0 3rem 0;
+    margin-bottom: 3rem;
 }
 
 .about-image {
@@ -327,6 +327,7 @@ li .dropdown-item-mobile {
     overflow: hidden;
     display: block;
     border-radius: 30px;
+    margin-top: 3rem;
 }
 
 .card {
@@ -503,16 +504,14 @@ footer {
     .nav-item:hover, .nav-item:active {
         background-color: var(--color-accent);
         color: var(--color-text);
-        border: 1px solid var(--color-text);
-        border-radius: 30px;
-        box-shadow: 0 2px 0 0 var(--color-text);
     }
 
     .dropdown-item-mobile {
-        border: 1px solid var(--color-text);
-        border-radius: 30px;
-        box-shadow: 0 4px 0 0 var(--color-text);
         margin: 0.4rem 0 0.4rem 0;
+    }
+
+    .hero-section {
+        padding: 0 !important;
     }
 }
 
@@ -525,5 +524,18 @@ footer {
 @media (max-width: 1260px) {
     .hero-card-wrapper {
         display: none;
+    }
+
+    .hero-section {
+        padding: 0;
+        margin: 2rem auto;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero-section p {
+        font-size: 1.1rem;
     }
 }
