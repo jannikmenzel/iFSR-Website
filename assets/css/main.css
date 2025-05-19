@@ -249,7 +249,7 @@ li .dropdown-item-mobile {
     color: var(--color-text);
     text-decoration: none;
     font-size: 1.1rem;
-    font-weight: lighter;
+    font-weight: 500;
 }
 
 .dark .hero-card.left-1 svg {
