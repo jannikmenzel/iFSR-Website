@@ -1,3 +1,5 @@
+<img width="2140" alt="Homepage" src="https://github.com/user-attachments/assets/ffe7c42e-9345-467d-9fe9-852ea6818704" />
+
 # iFSR Website – TU Dresden
 
 Dies ist die offizielle Website des iFSR (Informatik-Fachschaftsrat) der Technischen Universität Dresden. Die Seite wurde mit dem statischen Website-Generator [Hugo](https://gohugo.io/) erstellt und dient als zentrale Informationsplattform für Studierende der Fakultät Informatik.
@@ -93,6 +95,42 @@ Anschließend kannst du die Website im Browser unter [http://localhost:1313](htt
 1. Öffne die entsprechende `.md`-Datei im `content/`-Verzeichnis.
 2. Bearbeite den Inhalt im Markdown-Format.
 3. Änderungen werden beim Speichern durch `hugodev` automatisch neu geladen.
+
+---
+
+### Shortcode Snippets
+
+Du kannst Code Snippets in deine Markdown Files integrieren, um die Website interaktiver zu gestalten. Nachfolgend findest du hierfür eine Anleitung.
+
+#### Details
+
+<img width="2140" alt="Details" src="https://github.com/user-attachments/assets/bb87179d-2ac8-4079-a6f5-4067cf9efee6" />
+
+```
+{{< details
+title="Headline"
+number="01" >}}
+
+{{ content }}
+
+{{< /details >}}
+```
+
+#### Profile
+
+<img width="2070" alt="Profile" src="https://github.com/user-attachments/assets/e5966de3-7542-49dd-acd3-9d245a9ef358" />
+
+```
+{{< profile
+name="Name"
+image="/images/mitglieder/vorname-nachname.jpg"
+studiengang="BA Informatik, 1. Semester"
+email="vorname.nachname@ifsr.de" >}}
+
+{{ content }}
+
+{{< /profile >}}
+```
 
 ## 📬 Kontakt
 
