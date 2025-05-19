@@ -19,11 +19,11 @@ jederzeit Unterstützung im Studium.
 ## 🎉 Kulturelle und soziale Aktivitäten
 
 Zusätzlich nimmt der Fachschaftsrat auch die **kulturellen und sozialen Belange** der Studierenden wahr. Er organisiert regelmäßig:
-- 🎲 **Spieleabende** mit Brett-, Karten- und digitalen Spielen (etwa monatlich)
-- 🎄 **Weihnachtsfeiern**
-- 🔥 **Grillabende**
-- 🥾 **Wanderungen**
-- ⚽ **Sportturniere**
+- **Spieleabende** mit Brett-, Karten- und digitalen Spielen (etwa monatlich)
+- **Weihnachtsfeiern**
+- **Grillabende**
+- **Wanderungen**
+- **Sportturniere**
 
 Nicht zuletzt plant er zusammen mit vielen Helferinnen und Helfern die **Erstsemestereinführung**, bei der die neuen Studierenden gebührend empfangen und auf ihr Studium vorbereitet werden.
 

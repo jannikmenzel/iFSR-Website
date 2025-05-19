@@ -178,4 +178,4 @@ number="06" >}}
 
 {{< /details >}}
 
-👉 Komm vorbei und leihe dir dein Lieblingsspiel aus!
+Komm vorbei und leihe dir dein Lieblingsspiel aus!

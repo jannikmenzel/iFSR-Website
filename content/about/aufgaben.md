@@ -36,6 +36,7 @@ Wir kümmern uns um:
 - Social Media (Instagram, Twitter, Telegram)
 
 Kreative Köpfe willkommen!  
+
 > 📧 [pr@ifsr.de](mailto:pr@ifsr.de)
 
 ---
@@ -76,9 +77,9 @@ Wir organisieren die beliebten Spieleabende:
 
 Es gab viele weitere AGs, die wir gern wiederbeleben würden:
 
-- 📝 **AG Dokumentation** – Pflege eines Wikis zur FSR-Arbeit
-- 🌍 **AG Internationalisierung** – Unterstützung internationaler Studierender
-- 🌐 **AG Vernetzung** – Austausch mit anderen Unis und Fachschaften
-- 🎪 **AG Veranstaltungen** – Planung und Organisation von Events
+- **AG Dokumentation** – Pflege eines Wikis zur FSR-Arbeit
+- **AG Internationalisierung** – Unterstützung internationaler Studierender
+- **AG Vernetzung** – Austausch mit anderen Unis und Fachschaften
+- **AG Veranstaltungen** – Planung und Organisation von Events
 
-👉 Schreib uns: [fsr@ifsr.de](mailto:fsr@ifsr.de) oder komm bei einer Sitzung vorbei!
+Schreib uns: [fsr@ifsr.de](mailto:fsr@ifsr.de) oder komm bei einer Sitzung vorbei!

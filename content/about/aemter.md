@@ -20,7 +20,7 @@ Die Sprecher\_innen repräsentieren den FSR nach außen und dienen als Ansprechp
 
 ---
 
-## 💰 Finanzer_innen
+## 💰Finanzer_innen
 
 Die Finanzer\_innen tragen Verantwortung über die finanziellen Mittel des FSRs. Sie:
 - bezahlen Rechnungen

@@ -29,18 +29,6 @@ Sprechzeiten & weitere Infos: [Beratungs-Seite der Fakultät](https://tu-dresden
 
 ---
 
-## 👩‍🎓 Studentische Studienberatung
-
-Es gibt auch eine studentische Studienberatung:
-- Für **Informatik**: [Lydia Will](mailto:lydia.will@ifsr.de?subject=Studienberatung)
-- Für **Medieninformatik**: [Jacques-Maurice Walter](mailto:jacques.walther@ifsr.de?subject=Studienberatung)
-
-Bei Fragen oder Problemen – einfach per E-Mail einen Termin vereinbaren!
-
-> 📧 [studienberatung@ifsr.de](mailto:studienberatung@ifsr.de)
-
----
-
 ## 🌐 Zentrale Studienberatung der TU Dresden
 
 Die **Zentrale Studienberatung** hilft bei:
@@ -60,7 +48,7 @@ Ansprechpartnerin für unsere Fakultät:
 Du bist dir noch unsicher, ob ein Informatikstudium das Richtige für dich ist?  
 Hier findest du Hilfestellungen, um deine Interessen und Vorkenntnisse besser einschätzen zu können.
 
-> 🧠 Eine umfangreiche Sammlung von Eignungstests gibt es [hier](https://www.einstieg-informatik.de/?article_id=800%3Ftarget%3Dblank).
+> Eine umfangreiche Sammlung von Eignungstests gibt es [hier](https://www.einstieg-informatik.de/?article_id=800%3Ftarget%3Dblank).
 
 Lass dich von einem unerwarteten Testergebnis nicht entmutigen!  
 Es kann dir zeigen, dass du deine Vorstellungen vom Studienfach noch einmal überdenken solltest.  
@@ -72,17 +60,17 @@ Du möchtest direkt prüfen, wie gut du mit Inhalten aus dem Studium klarkommst?
 Dann probier doch den **Vorbereitungskurs Informatik** aus!  
 Dort werden die Grundlagen behandelt, die in den ersten Semestern eine Rolle spielen.
 
-> 👉 Zum Kurs: [Vorbereitungskurs Informatik (OPAL)](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/23217537051)
+> Zum Kurs: [Vorbereitungskurs Informatik (OPAL)](https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/23217537051)
 
 Wenn dir das Lernen Spaß macht und du gut mitkommst, ist das ein gutes Zeichen für deine Studienwahl!
 
 ### 🧭 Weitere Informationsquellen
 
 Bei Fragen rund ums Informatikstudium helfen dir auch:
-- [🎓 Studienberatung](https://tu-dresden.de/studium/im-studium/beratung-und-service/zentrale-studienberatung)
-- 💬 [**UNI LIVE**](https://tu-dresden.de/studium/vor-dem-studium/uni-testen/uni-live) – jeweils Anfang/Mitte Januar
-- 📅 [**UNI-Tag**](https://tu-dresden.de/unitag) – jeweils Mitte/Ende April
-- 🧑‍🏫 [TU Dresden – Infos für Schüler](https://tu-dresden.de/ing/informatik/studium/angebote-fuer-schueler)
-- 💡 Der [FSR Informatik](https://www.ifsr.de)
+- [Studienberatung](https://tu-dresden.de/studium/im-studium/beratung-und-service/zentrale-studienberatung)
+- [**UNI LIVE**](https://tu-dresden.de/studium/vor-dem-studium/uni-testen/uni-live) – jeweils Anfang/Mitte Januar
+- [**UNI-Tag**](https://tu-dresden.de/unitag) – jeweils Mitte/Ende April
+- [TU Dresden – Infos für Schüler](https://tu-dresden.de/ing/informatik/studium/angebote-fuer-schueler)
+- Der [FSR Informatik](https://www.ifsr.de)
 
 Viel Erfolg beim Ausprobieren und Einschätzen deiner Stärken!
