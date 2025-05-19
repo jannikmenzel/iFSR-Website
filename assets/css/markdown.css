@@ -147,6 +147,7 @@
 @media (max-width: 576px) {
     #markdown {
         padding: 1rem 0 0 0;
+        max-width: 95%;
     }
 
     #markdown h1 {
