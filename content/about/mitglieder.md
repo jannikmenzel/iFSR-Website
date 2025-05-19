@@ -7,7 +7,7 @@ draft = false
 
 {{< profile
 name="Béla Richarts"
-image="/images/mitglieder/bela-richarts.jpg"
+image="/images/profilbilder/bela-richarts.jpg"
 studiengang="BA Informatik, 3. Semester"
 email="bela.richarts@ifsr.de" >}}
 
@@ -19,7 +19,7 @@ email="bela.richarts@ifsr.de" >}}
 
 {{< profile
 name="Bjarne Storbeck"
-image="/images/mitglieder/avatar.jpg"
+image="/images/profilbilder/avatar.jpg"
 studiengang="BA Informatik, 3. Semester"
 email="bjarne.storbeck@ifsr.de" >}}
 
@@ -29,7 +29,7 @@ email="bjarne.storbeck@ifsr.de" >}}
 
 {{< profile
 name="Jannik Menzel"
-image="/images/mitglieder/jannik-menzel.jpg"
+image="/images/profilbilder/jannik-menzel.jpg"
 studiengang="BA Informatik, 1. Semester"
 email="jannik.menzel@ifsr.de" >}}
 
@@ -41,7 +41,7 @@ email="jannik.menzel@ifsr.de" >}}
 
 {{< profile
 name="Eric Schlafke"
-image="/images/mitglieder/avatar.jpg"
+image="/images/profilbilder/avatar.jpg"
 studiengang="Dipl. Informatik, 1. Semester"
 email="eric.schlafke@ifsr.de" >}}
 
@@ -53,7 +53,7 @@ email="eric.schlafke@ifsr.de" >}}
 
 {{< profile
 name="Kevin Vogel"
-image="/images/mitglieder/kevin-vogel.jpg"
+image="/images/profilbilder/kevin-vogel.jpg"
 studiengang="BA Informatik, 1. Semester"
 email="kevin.vogel@ifsr.de" >}}
 
@@ -65,7 +65,7 @@ email="kevin.vogel@ifsr.de" >}}
 
 {{< profile
 name="Vincent Kruse"
-image="/images/mitglieder/vincent-kruse.jpg"
+image="/images/profilbilder/vincent-kruse.jpg"
 studiengang="BA Informatik, 6. Semester"
 email="vincent.kruse@ifsr.de" >}}
 
@@ -75,7 +75,7 @@ email="vincent.kruse@ifsr.de" >}}
 
 {{< profile
 name="Maximilian Heunemann"
-image="/images/mitglieder/maximilian-heunemann.jpg"
+image="/images/profilbilder/maximilian-heunemann.jpg"
 studiengang="BA Medieninformatik, 1. Semester"
 email="maximilian.heunemann@ifsr.de" >}}
 
@@ -87,7 +87,7 @@ email="maximilian.heunemann@ifsr.de" >}}
 
 {{< profile
 name="Yazan Raee"
-image="/images/mitglieder/yazan-raee.jpg"
+image="/images/profilbilder/yazan-raee.jpg"
 studiengang="BA Medieninformatik, 5. Semester"
 email="yazan.raee@ifsr.de" >}}
 
@@ -99,7 +99,7 @@ email="yazan.raee@ifsr.de" >}}
 
 {{< profile
 name="Frieder Hannenheim"
-image="/images/mitglieder/frieder-hannenheim.jpg"
+image="/images/profilbilder/frieder-hannenheim.jpg"
 studiengang="BA Informatik, 1. Semester"
 email="frieder.hannenheim@ifsr.de" >}}
 
@@ -111,7 +111,7 @@ email="frieder.hannenheim@ifsr.de" >}}
 
 {{< profile
 name="Lyn Fugmann"
-image="/images/mitglieder/avatar.jpg"
+image="/images/profilbilder/avatar.jpg"
 studiengang="BA Informatik, 8. Semester"
 email="lyn.fugmann@ifsr.de" >}}
 
@@ -123,7 +123,7 @@ email="lyn.fugmann@ifsr.de" >}}
 
 {{< profile
 name="Richard Schellenberg"
-image="/images/mitglieder/avatar.jpg"
+image="/images/profilbilder/avatar.jpg"
 studiengang="BA Informatik, 3. Semester"
 email="richard.schellenberg@ifsr.de" >}}
 
@@ -135,7 +135,7 @@ email="richard.schellenberg@ifsr.de" >}}
 
 {{< profile
 name="Philipp Denz"
-image="/images/mitglieder/avatar.jpg"
+image="/images/profilbilder/avatar.jpg"
 studiengang="Dipl. Informatik, 9. Semester"
 email="philipp.denz@ifsr.de" >}}
 
@@ -147,7 +147,7 @@ email="philipp.denz@ifsr.de" >}}
 
 {{< profile
 name="Joachim Stramke"
-image="/images/mitglieder/avatar.jpg"
+image="/images/profilbilder/avatar.jpg"
 studiengang="Dipl. Informatik, 5. Semester"
 email="joachim.stramke@ifsr.de" >}}
 
@@ -159,7 +159,7 @@ email="joachim.stramke@ifsr.de" >}}
 
 {{< profile
 name="Eliah Lohr"
-image="/images/mitglieder/eliah-lohr.jpg"
+image="/images/profilbilder/eliah-lohr.jpg"
 studiengang="BA Medieninformatik, 4. Semester"
 email="eliah.lohr@ifsr.de" >}}
 
@@ -171,7 +171,7 @@ email="eliah.lohr@ifsr.de" >}}
 
 {{< profile
 name="Fabian Naumann"
-image="/images/mitglieder/avatar.jpg"
+image="/images/profilbilder/avatar.jpg"
 studiengang="MA Informatik, 4. Semester"
 email="fabian.naumann@ifsr.de" >}}
 
@@ -181,7 +181,7 @@ email="fabian.naumann@ifsr.de" >}}
 
 {{< profile
 name="Helene Hausmann"
-image="/images/mitglieder/helene-hausmann.jpg"
+image="/images/profilbilder/helene-hausmann.jpg"
 studiengang="BA Informatik, 5. Semester"
 email="helene.hausmann@ifsr.de" >}}
 
@@ -193,7 +193,7 @@ email="helene.hausmann@ifsr.de" >}}
 
 {{< profile
 name="Kenny Weidemann"
-image="/images/mitglieder/kenny-weidemann.jpg"
+image="/images/profilbilder/kenny-weidemann.jpg"
 studiengang="BA Medieninformatik, 7. Semester"
 email="kenny.weidemann@ifsr.de" >}}
 
@@ -205,7 +205,7 @@ email="kenny.weidemann@ifsr.de" >}}
 
 {{< profile
 name="Nico Behrens"
-image="/images/mitglieder/nico-behrens.jpg"
+image="/images/profilbilder/nico-behrens.jpg"
 studiengang="MA Informatik, 3. Semester"
 email="nico.behrens@ifsr.de" >}}
 
@@ -217,7 +217,7 @@ email="nico.behrens@ifsr.de" >}}
 
 {{< profile
 name="Hamza Aslam"
-image="/images/mitglieder/hamza-aslam.jpg"
+image="/images/profilbilder/hamza-aslam.jpg"
 studiengang="MA Computational Modeling and Simulation, 3. Semester"
 email="hamza.aslam@ifsr.de" >}}
 
@@ -229,7 +229,7 @@ email="hamza.aslam@ifsr.de" >}}
 
 {{< profile
 name="Roman Matthias Roller"
-image="/images/mitglieder/roman-roller.jpg"
+image="/images/profilbilder/roman-roller.jpg"
 studiengang="BA Informatik, 7. Semester"
 email="roman.roller@ifsr.de" >}}
 
@@ -241,7 +241,7 @@ email="roman.roller@ifsr.de" >}}
 
 {{< profile
 name="Haris Qureshi"
-image="/images/mitglieder/haris-qureshi.jpg"
+image="/images/profilbilder/haris-qureshi.jpg"
 studiengang="MA Computational Modeling and Simulation, 4. Semester"
 email="haris.qureshi@ifsr.de" >}}
 
@@ -253,7 +253,7 @@ email="haris.qureshi@ifsr.de" >}}
 
 {{< profile
 name="Christoph Baitis"
-image="/images/mitglieder/avatar.jpg"
+image="/images/profilbilder/avatar.jpg"
 studiengang="BA Informatik, 7. Semester"
 email="christoph.baitis@ifsr.de" >}}
 
@@ -263,7 +263,7 @@ email="christoph.baitis@ifsr.de" >}}
 
 {{< profile
 name="Macy Jane Schreiber"
-image="/images/mitglieder/avatar.jpg"
+image="/images/profilbilder/avatar.jpg"
 studiengang="BA Informatik, 5. Semester"
 email="macy.schreiber@ifsr.de" >}}
 
@@ -275,7 +275,7 @@ email="macy.schreiber@ifsr.de" >}}
 
 {{< profile
 name="Laxminarayan Prasad Shenoy"
-image="/images/mitglieder/avatar.jpg"
+image="/images/profilbilder/avatar.jpg"
 studiengang="MA Computational Modeling and Simulation, 3. Semester"
 email="laxminarayan.shenoy@ifsr.de" >}}
 
@@ -287,7 +287,7 @@ email="laxminarayan.shenoy@ifsr.de" >}}
 
 {{< profile
 name="Arthur Wolf"
-image="/images/mitglieder/avatar.jpg"
+image="/images/profilbilder/avatar.jpg"
 studiengang="BA Informatik, 1. Semester"
 email="arthur.wolf@ifsr.de" >}}
 

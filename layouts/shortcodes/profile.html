@@ -5,7 +5,7 @@
     <div class="profile-content">
         <h2>{{ .Get "name" }}</h2>
         <p><strong>Studiengang:</strong> {{ .Get "studiengang" }}<br>
-            📧 <a href="mailto:{{ .Get "email" }}">{{ .Get "email" }}</a></p>
+            {{ with .Get "email" }}📧 <a href="mailto:{{ . }}">{{ . }}</a><br>{{ end }}</p>
     </div>
 </div>
 {{ .Inner | markdownify }}

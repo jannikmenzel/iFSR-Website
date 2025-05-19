@@ -92,6 +92,12 @@ name = "Linksammlung"
 url = "/studium/linksammlung"
 weight = 5
 
+[[menu.main]]
+parent = "Studium"
+name = "Programmierkurse"
+url = "https://kurse.ifsr.de/"
+weight = 6
+
 # ====================
 # Hauptmenü: Sitzung & Protokolle
 # ====================
