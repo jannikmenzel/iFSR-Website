@@ -7,13 +7,13 @@ draft = false
 
 Neben dir sind aktuell über 30.000 Studierende an unserer Universität eingeschrieben. Gemeinsam bilden wir alle die Studierendenschaft. Damit sind wir mit Abstand die größte Interessensgruppe an unserer Uni und haben bei vielen Entscheidungen ein Mitspracherecht. Studentisches Engagement kann echt was bewegen!
 
-## 🎉 Was geht hier?
+## [celebration] Was geht hier?
 
 Wie in jedem Jahr stehen die uniweiten Wahlen 🐳 wieder an. Vom 10. Dezember bis zum 12. Dezember 2024 kannst du über die verschiedenen Wahlstände auf dem Campus oder per Briefwahl den Fachschaftsrat, den Fakultätsrat, den Senat und den Erweiterten Senat wählen. Setze dich für die Belange deiner Mitstudierenden ein, gewinne Einblicke 👀 in die inneren Vorgänge der Universität, lerne engagierte Menschen kennen und schule deine sozialen Fähigkeiten im offenen Diskurs.
 
 Der Einstieg in die studentische Mitbestimmung 📣 durch die Mitarbeit im Fachschaftsrat ist ganz einfach und erfordert keine besonderen Kenntnisse. Neben Beratungsangeboten und der Arbeit an der Verbesserung deines Studiengangs organisiert der Fachschaftsrat die ESE sowie Workshops, Spieleabende, Partys und vieles mehr. All das ist nur möglich, wenn sich genügend Studierende für eine Mitarbeit begeistern lassen. 👐
 
-## 🗳️ Was wird gewählt?
+## [how_to_vote] Was wird gewählt?
 
 {{< details
 title="Fachschaftsrat (FSR)"
@@ -87,9 +87,9 @@ Sie sind Mitglieder in zentralen Gremien wie dem Fakultäts- oder Bereichsrat un
 
 {{< /details >}}
 
-## 👤 Wer kandidiert?
+## [person] Wer kandidiert?
 
-### 🧑‍🤝‍🧑 Fachschaftsrat (FSR)
+### Fachschaftsrat (FSR)
 
 Es können bis zu 25 Kandidierende in den Fachschaftsrat gewählt werden.
 
@@ -458,7 +458,7 @@ studiengang="Dipl. Informatik, 5. Semester" >}}
 
 ---
 
-### 🏛️ Fakultätsrat (FakRat)
+### Fakultätsrat (FakRat)
 
 Es können zwei Vertreter:innen für den Fakultätsrat gewählt werden. Eine weitere Person kann einen Ersatz-Sitz erhalten. Die Listenplatzierung definiert die Belegung.
 
@@ -508,7 +508,7 @@ studiengang="BA Medieninformatik, 7. Semester" >}}
 
 ---
 
-## 🏛️ Senat & Erweiterter Senat
+### Senat & Erweiterter Senat
 
 Es können jeweils vier Vertreter:innen im Senat und im Erweiterten Senat gewählt werden.
 

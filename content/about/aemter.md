@@ -5,7 +5,7 @@ draft = false
 
 # Ämter
 
-## 🗣️ Sprecher_innen
+## [campaign] Sprecher_innen
 
 Die Sprecher\_innen repräsentieren den FSR nach außen und dienen als Ansprechpersonen in offiziellen Belangen. Sie sind gut vernetzt, behalten den Überblick und versuchen, Probleme früh zu erkennen.
 
@@ -16,11 +16,11 @@ Die Sprecher\_innen repräsentieren den FSR nach außen und dienen als Ansprechp
 | Christoph Baitis | [christoph.baitis@ifsr.de](mailto:christoph.baitis@ifsr.de) |
 | Eliah Lohr       | [eliah.lohr@ifsr.de](mailto:eliah.lohr@ifsr.de)             |
 
-⚠️ Dieses Amt ist weiterhin ausgeschrieben, da eine nicht-männliche Quote von 50 % nicht erreicht wurde.
+Dieses Amt ist weiterhin ausgeschrieben, da eine nicht-männliche Quote von 50 % nicht erreicht wurde.
 
 ---
 
-## 💰Finanzer_innen
+## [paid] Finanzer_innen
 
 Die Finanzer\_innen tragen Verantwortung über die finanziellen Mittel des FSRs. Sie:
 - bezahlen Rechnungen
@@ -35,7 +35,7 @@ Die Finanzer\_innen tragen Verantwortung über die finanziellen Mittel des FSRs.
 
 ---
 
-## 🗂️ Strukturer_innen
+## [folder_open] Strukturer_innen
 
 Sie kümmern sich um den internen Ablauf und die Arbeitsfähigkeit des FSR:
 - Beschaffung von Büromaterial

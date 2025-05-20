@@ -9,7 +9,7 @@ Der iFSR bietet eine Vielzahl von Angeboten an. Egal ob du etwas drucken oder ko
 
 ---
 
-## 🖨️ Drucken & Kopieren
+## [print] Drucken & Kopieren
 
 ### Schwarz/Weiß
 
@@ -34,7 +34,7 @@ Der iFSR bietet eine Vielzahl von Angeboten an. Egal ob du etwas drucken oder ko
 
 ---
 
-## 🔌 Geräte ausleihen
+## [handyman] Geräte ausleihen
 
 Der Fachschaftsrat bietet diverse Geräte zum Verleih an, z.B.:
 
@@ -43,15 +43,15 @@ Der Fachschaftsrat bietet diverse Geräte zum Verleih an, z.B.:
 - Nintendo Switch
 - Oculus Rift
 
-> 📄 [Leihmaterial – Übersicht aller Gegenstände](/other/leihmaterial.pdf)
+> [Leihmaterial – Übersicht aller Gegenstände](/other/leihmaterial.pdf)
 > 
-> 📄 [Leihordnung – Weitere Infos zum Verleih](/other/leihordnung.pdf)
+> [Leihordnung – Weitere Infos zum Verleih](/other/leihordnung.pdf)
 
 **Fragen?** Kommt einfach im FSR-Büro vorbei – wir helfen euch gern weiter!
 
 ---
 
-## 📊 Notenrechner
+## [lightbulb] Notenrechner
 
 Für folgende Studiengänge gibt es einen [**Online-Notenrechner**](https://notenrechner.ifsr.de/):
 
@@ -67,7 +67,7 @@ Für folgende Studiengänge gibt es einen [**Online-Notenrechner**](https://note
 
 ---
 
-## 🎲 Spieleverleih
+## [sports_esports] Spieleverleih
 
 Wir haben eine große Auswahl an Spielen in gutem Zustand:
 

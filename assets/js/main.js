@@ -35,7 +35,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // update on change
     const observer = new MutationObserver(updateBodyThemeAttr);
-    observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+    observer.observe(document.documentElement, {attributes: true, attributeFilter: ["class"]});
 
     prefersDarkScheme.addEventListener("change", () => {
         updateBodyThemeAttr();
@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 /* ========================
    Details Toggle
    ======================== */
-window.toggleDetails = function(element) {
+window.toggleDetails = function (element) {
     element.classList.toggle('expanded');
 
     const plusIcon = element.querySelector('.icon-plus');
@@ -56,3 +56,19 @@ window.toggleDetails = function(element) {
     plusIcon.style.display = isExpanded ? 'none' : 'inline';
     minusIcon.style.display = isExpanded ? 'inline' : 'none';
 };
+
+fetch('https://api.rss2json.com/v1/api.json?rss_url=https://toot.kif.rocks/@ifsr.rss')
+    .then(res => res.json())
+    .then(data => {
+        const container = document.getElementById('feed');
+        data.items.slice(0, 5).forEach(item => {
+            const cleanedContent = item.content.replace(/<span class="invisible">.*?<\/span>/g, '');
+            const entry = document.createElement('article');
+            entry.classList.add('feed-entry');
+            entry.innerHTML = `
+        <div class="feed-content">${cleanedContent}</div>
+        <a href="${item.link}" class="btn btn-secondary" target="_blank">Zum Beitrag</a>
+      `;
+            container.appendChild(entry);
+        });
+    });
