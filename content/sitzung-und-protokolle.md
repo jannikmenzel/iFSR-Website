@@ -9,9 +9,9 @@ Die FSR-Sitzung findet im Semester jeden **Montag um 18:30** Uhr und in der vorl
 
 Zusätzlich zur Präsenzsitzung bieten wir auch die Möglichkeit an, online über BigBlueButton teilzunehmen. Alle Studierenden können sich unter folgendem Link zuschalten:
 
-> 💻 [Zur Online-Sitzung (BBB)](https://ifsr.de/bbb)
+> [Zur Online-Sitzung (BBB)](https://ifsr.de/bbb)
 
-## Kommende Sitzungen
+## [group] Kommende Sitzungen
 
 Die nächsten Sitzungen finden an den folgenden Tagen statt:
 
@@ -20,8 +20,8 @@ Die nächsten Sitzungen finden an den folgenden Tagen statt:
 - 19.05.2025, 18:30 Uhr
 - 26.05.2025, 18:30 Uhr
 
-## Protokolle
+## [newsstand] Protokolle
 
 Von jeder Sitzung wird ein ausführliches Protokoll angefertigt.
 
-> 🔗 [Die Protokolle finden sich hier.](https://ftp.ifsr.de/protokolle)
+> [Die Protokolle finden sich hier.](https://ftp.ifsr.de/protokolle)

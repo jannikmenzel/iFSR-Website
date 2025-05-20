@@ -7,11 +7,11 @@ draft = false
 
 Hier findest du eine Zusammenstellung von hilfreichen Informationen rund ums Informatikstudium – egal ob du dich gerade dafür entscheidest, ins Ausland möchtest oder schon deinen Master planst.
 
-## 🎓 Studienangebot
+## [school] Studienangebot
 
 > Das komplette Studienangebot an der Fakultät Informatik findest du hier: [Studiengänge der Fakultät Informatik](https://tu-dresden.de/ing/informatik/studium/studienangebot)
 
-## 🌍 Auslandsstudium
+## [public] Auslandsstudium
 
 Ein Auslandsaufenthalt im Studium ist eine großartige Möglichkeit, Erfahrungen zu sammeln, andere Kulturen kennenzulernen und deinen Horizont zu erweitern.
 

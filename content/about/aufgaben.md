@@ -5,30 +5,28 @@ draft = false
 
 # Aufgaben
 
-## 🤝 Arbeitsgruppen und Aufgabenbereiche
-
-### 🖥️ Admins
+## [computer] Admins
 Die Admins stellen sicher, dass die Infrastruktur funktioniert:
 - Verwaltung des FSR-Servers (Mails, Dateiverwaltung, Webservices)
 - Einsatz von **NixOS** als Betriebssystem  
   Mehr Infos: [GitHub-Repo](https://github.com/ifsr)
 
-> 📧 [fsr@ifsr.de](mailto:fsr@ifsr.de)
+> [fsr@ifsr.de](mailto:fsr@ifsr.de)
 
 ---
 
-### 🚀 Orga der Erstsemestereinführung (ESE)
+## [rocket_launch] Orga der Erstsemestereinführung (ESE)
 Über ein halbes Jahr vor der Veranstaltung beginnt die Planung. Verantwortliche Personen koordinieren viele Helfer\_innen in Bereichen wie:
 - Veranstaltungsplanung
 - Raumorganisation
 - Finanzierung
 - Öffentlichkeitsarbeit
 
-> 📧 Kontakt: [ese-orga@ifsr.de](mailto:ese-orga@ifsr.de)
+> Kontakt: [ese-orga@ifsr.de](mailto:ese-orga@ifsr.de)
 
 ---
 
-### 📢 AG Öffentlichkeitsarbeit
+## [campaign] AG Öffentlichkeitsarbeit
 Wir kümmern uns um:
 - Pflege der Website
 - Schreiben von Infotexten
@@ -37,43 +35,43 @@ Wir kümmern uns um:
 
 Kreative Köpfe willkommen!  
 
-> 📧 [pr@ifsr.de](mailto:pr@ifsr.de)
+> [pr@ifsr.de](mailto:pr@ifsr.de)
 
 ---
 
-### 🌱 AG Nachhaltigkeit
+## [eco] AG Nachhaltigkeit
 Wir setzen uns für ressourcenschonendes Arbeiten ein:
 - Nachhaltigkeit bei der ESE
 - umweltfreundliches Büro
 - nachhaltige FSR-Aktivitäten
 
-> 📧 [nachhaltigkeit@ifsr.de](mailto:nachhaltigkeit@ifsr.de)
+> [nachhaltigkeit@ifsr.de](mailto:nachhaltigkeit@ifsr.de)
 
 ---
 
-### 🎓 AG Lehre
+## [school] AG Lehre
 Kernaufgabe: Verbesserung der Lehre!
 - Diskussion zu Studiengangsreformen
 - Qualität von Lehrveranstaltungen
 - Kontakt zu Lehrenden bei Problemen
 - Mitarbeit in Studienkommissionen
 
-> 📧 [fsr@ifsr.de](mailto:fsr@ifsr.de)
+> [fsr@ifsr.de](mailto:fsr@ifsr.de)
 
 ---
 
-### 🎲 Spieleabend-Taskforce
+## [sports_esports] Spieleabend-Taskforce
 Wir organisieren die beliebten Spieleabende:
 - Vorbereitung von Räumen und Materialien
 - Organisation von Snacks & Getränken
 - Durchführung von Turnieren (Poker, Schach)
 - Aktuell: digitale Umsetzung
 
-> 📧 [fsr@ifsr.de](mailto:fsr@ifsr.de)
+> [fsr@ifsr.de](mailto:fsr@ifsr.de)
 
 ---
 
-## 🧭 WANTED: Deine Unterstützung!
+## [wand_stars] WANTED: Deine Unterstützung!
 
 Es gab viele weitere AGs, die wir gern wiederbeleben würden:
 

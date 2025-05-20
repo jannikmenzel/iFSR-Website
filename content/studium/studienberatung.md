@@ -5,7 +5,7 @@ draft = false
 
 # Studienberatung
 
-## 👥 Fachspezifische Studienberatung
+## [group] Fachspezifische Studienberatung
 
 Für jedes Studienfach gibt es eine festangestellte Studienfachberatung. Sie hilft bei Fragen zu:
 - Bewerbung
@@ -25,11 +25,11 @@ Sprechzeiten & weitere Infos: [Beratungs-Seite der Fakultät](https://tu-dresden
 | Computational Science and Engineering                       | [Dr.-Ing. Katrin Borcea-Pfitzmann](mailto:inf-cse-beratung@groups.tu-dresden.de), [Dr. rer. nat. Andreas Knüpfer](mailto:inf-cse-beratung@groups.tu-dresden.de) |
 | Lehramtsstudiengänge Informatik                             | [Dr. rer. nat. Holger Rohland](mailto:holger.rohland@tu-dresden.de)                                                                                             |
 
-> 📧 Kontakt: [fsr@ifsr.de](mailto:fsr@ifsr.de)
+> Kontakt: [fsr@ifsr.de](mailto:fsr@ifsr.de)
 
 ---
 
-## 🌐 Zentrale Studienberatung der TU Dresden
+## [language] Zentrale Studienberatung der TU Dresden
 
 Die **Zentrale Studienberatung** hilft bei:
 - Studiengangswechsel
@@ -39,11 +39,11 @@ Die **Zentrale Studienberatung** hilft bei:
 Ansprechpartnerin für unsere Fakultät:
 [**Antonia Zacharias, M.A.**](mailto:antonia.zacharias@tu-dresden.de)
 
-> 🔗 [Zentrale Studienberatung](https://tu-dresden.de/studium/im-studium/beratung-und-service/zentrale-studienberatung)
+> [Zentrale Studienberatung](https://tu-dresden.de/studium/im-studium/beratung-und-service/zentrale-studienberatung)
 
 ---
 
-## 🧪 Eignungstests
+## [experiment] Eignungstests
 
 Du bist dir noch unsicher, ob ein Informatikstudium das Richtige für dich ist?  
 Hier findest du Hilfestellungen, um deine Interessen und Vorkenntnisse besser einschätzen zu können.
@@ -54,7 +54,7 @@ Lass dich von einem unerwarteten Testergebnis nicht entmutigen!
 Es kann dir zeigen, dass du deine Vorstellungen vom Studienfach noch einmal überdenken solltest.  
 Umgekehrt ist ein gutes Ergebnis natürlich auch kein Selbstläufer für ein leichtes Studium – Informatik bleibt herausfordernd.
 
-### 🧰 Vorbereitungskurs Informatik
+## [newsstand] Vorbereitungskurs Informatik
 
 Du möchtest direkt prüfen, wie gut du mit Inhalten aus dem Studium klarkommst?  
 Dann probier doch den **Vorbereitungskurs Informatik** aus!  
@@ -64,12 +64,12 @@ Dort werden die Grundlagen behandelt, die in den ersten Semestern eine Rolle spi
 
 Wenn dir das Lernen Spaß macht und du gut mitkommst, ist das ein gutes Zeichen für deine Studienwahl!
 
-### 🧭 Weitere Informationsquellen
+## [explore] Weitere Informationsquellen
 
 Bei Fragen rund ums Informatikstudium helfen dir auch:
 - [Studienberatung](https://tu-dresden.de/studium/im-studium/beratung-und-service/zentrale-studienberatung)
-- [**UNI LIVE**](https://tu-dresden.de/studium/vor-dem-studium/uni-testen/uni-live) – jeweils Anfang/Mitte Januar
-- [**UNI-Tag**](https://tu-dresden.de/unitag) – jeweils Mitte/Ende April
+- [UNI LIVE](https://tu-dresden.de/studium/vor-dem-studium/uni-testen/uni-live) – jeweils Anfang/Mitte Januar
+- [UNI-Tag](https://tu-dresden.de/unitag) – jeweils Mitte/Ende April
 - [TU Dresden – Infos für Schüler](https://tu-dresden.de/ing/informatik/studium/angebote-fuer-schueler)
 - Der [FSR Informatik](https://www.ifsr.de)
 

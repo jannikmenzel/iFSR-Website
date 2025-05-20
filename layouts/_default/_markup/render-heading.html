@@ -7,7 +7,7 @@
 {{- if gt (len $matches) 0 -}}
     {{- range $i, $match := $matches -}}
         {{- $iconName := replaceRE `^\[(\w+)\]$` `$1` $match -}}
-        {{- $iconPath := printf "icons/%s.svg" $iconName -}}
+        {{- $iconPath := printf "icons/heading-icons/%s.svg" $iconName -}}
         {{- $svg := resources.Get $iconPath -}}
         {{- if $svg -}}
             {{- $svgContent := $svg.Content | safeHTML -}}

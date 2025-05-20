@@ -9,19 +9,19 @@ Der Fachschaftsrat Informatik steht dir in sämtlichen Studienbelangen zur Seite
 
 
 
-## 📱 Social Media
+## [alternate_email] Social Media
 
 [Mailinglisten](https://lists.ifsr.de/mailman3/lists/) · [Instagram](https://instagram.com/fsr.inf) · [Telegram](https://t.me/fsr_inf) · [Matrix](https://matrix.to/#/#fsr-inf-studierende:matrix.org)
 
 ---
 
-## 📬 Externe Kontaktanfragen
+## [drafts] Externe Kontaktanfragen
 
 Gerne nehmen wir auch Sponsoring-Anfragen zur Unterstützung des Fachschaftsrates, Veranstaltungen oder der Erstsemestereinführung entgegen. Kontaktieren Sie hierzu gerne das [Amt für Finanzer_innen](mailto:finanzer@ifsr.de) oder direkt die [AG Erstsemestereinführung](mailto:ese-orga@ifsr.de).
 
 ---
 
-## 📧 E-Mail Adressen
+## [mail] E-Mail Adressen
 
 > Für allgemeine Fragen/Anmerkungen gerne diese E-Mail:
 > - Fachschaftsrat: [fsr@ifsr.de](mailto:fsr@ifsr.de)
@@ -34,29 +34,29 @@ Gerne nehmen wir auch Sponsoring-Anfragen zur Unterstützung des Fachschaftsrate
 
 ---
 
-## 🛠️ Ämter und Arbeitsgruppen
+## [group] Ämter und Arbeitsgruppen
 
-### 🧑‍💼 Ämter
+### Ämter
 - Amt Sprecher_innen: [sprecher@ifsr.de](mailto:sprecher@ifsr.de)
 - Amt Finanzer_innen: [finanzer@ifsr.de](mailto:finanzer@ifsr.de)
 - Amt Strukturer_innen: [strukturer@ifsr.de](mailto:strukturer@ifsr.de)
 
-### 👥 Arbeitsgruppen
+### Arbeitsgruppen
 - AG Erstsemestereinführung: [ese-orga@ifsr.de](mailto:ese-orga@ifsr.de)
 - AG Öffentlichkeitsarbeit: [pr@ifsr.de](mailto:pr@ifsr.de)
 - AG Nachhaltigkeit: [nachhaltigkeit@ifsr.de](mailto:nachhaltigkeit@ifsr.de)
 
 ---
 
-## 🏢 Anschrift
+## [location_on] Anschrift
 
-### 📍 Besucheranschrift
+### Besucheranschrift
 Fakultät Informatik  
 Nöthnitzer Str. 46  
 Raum E017  
 01187 Dresden
 
-### ✉️ Postanschrift
+### Postanschrift
 Technische Universität Dresden  
 Fakultät Informatik  
 Fachschaftsrat  
