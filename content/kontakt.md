@@ -11,18 +11,6 @@ Der Fachschaftsrat Informatik steht dir in sämtlichen Studienbelangen zur Seite
 
 ## [alternate_email] Social Media
 
-[Mailinglisten](https://lists.ifsr.de/mailman3/lists/) · [Instagram](https://instagram.com/fsr.inf) · [Telegram](https://t.me/fsr_inf) · [Matrix](https://matrix.to/#/#fsr-inf-studierende:matrix.org)
-
----
-
-## [drafts] Externe Kontaktanfragen
-
-Gerne nehmen wir auch Sponsoring-Anfragen zur Unterstützung des Fachschaftsrates, Veranstaltungen oder der Erstsemestereinführung entgegen. Kontaktieren Sie hierzu gerne das [Amt für Finanzer_innen](mailto:finanzer@ifsr.de) oder direkt die [AG Erstsemestereinführung](mailto:ese-orga@ifsr.de).
-
----
-
-## [mail] E-Mail Adressen
-
 > Für allgemeine Fragen/Anmerkungen gerne diese E-Mail:
 > - Fachschaftsrat: [fsr@ifsr.de](mailto:fsr@ifsr.de)
 
@@ -31,6 +19,26 @@ Gerne nehmen wir auch Sponsoring-Anfragen zur Unterstützung des Fachschaftsrate
 
 > Für weitere Anfragen von Externen, die an Studierende weitergeleitet werden sollen (z.B. Stellenangebote), nutzen Sie bitte die nachfolgende Adresse. Es handelt sich hier ebenfalls um einen E-Mail-Verteiler. Auch hier die Mail bitte direkt an unsere Studierenden richten.  
 > - Extern: [extern@ifsr.de](mailto:extern@ifsr.de)
+
+---
+
+## [drafts] Externe Kontaktanfragen
+
+Gerne nehmen wir auch Sponsoring-Anfragen zur Unterstützung des Fachschaftsrates, Veranstaltungen oder der Erstsemestereinführung entgegen. Senden Sie gerne eine Email an den [FSR](mailto:fsr@ifsr.de) oder wenn es um die ESE geht, dann gerne direkt an die [AG Erstsemestereinführung](mailto:ese-orga@ifsr.de).
+
+
+---
+
+## [mail] E-Mail Adressen
+
+- [Mailinglisten](https://lists.ifsr.de/mailman3/lists/) 
+
+- [Instagram](https://instagram.com/fsr.inf)
+
+- [Telegram](https://t.me/fsr_inf)
+
+- [Matrix](https://matrix.to/#/#fsr-inf-studierende:matrix.org)
+
 
 ---
 
