@@ -40,8 +40,27 @@
 }
 
 #markdown h2 {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
     font-size: 2rem;
     color: var(--color-text);
+}
+
+.icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    color: currentColor;
+}
+
+.icon svg {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 #markdown h3 {

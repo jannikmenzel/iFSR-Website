@@ -1,0 +1,21 @@
+{{- $level := .Level -}}
+{{- $text := .Text -}}
+
+{{- $re := `\[(\w+)\]` -}}
+{{- $matches := findRE $re $text -}}
+
+{{- if gt (len $matches) 0 -}}
+    {{- range $i, $match := $matches -}}
+        {{- $iconName := replaceRE `^\[(\w+)\]$` `$1` $match -}}
+        {{- $iconPath := printf "icons/%s.svg" $iconName -}}
+        {{- $svg := resources.Get $iconPath -}}
+        {{- if $svg -}}
+            {{- $svgContent := $svg.Content | safeHTML -}}
+            {{- $text = replace $text $match (printf `<span class="icon">%s</span>` $svgContent) -}}
+        {{- else -}}
+            {{- $text = replace $text $match (printf `<span class="icon-missing">[%s]</span>` $iconName) -}}
+        {{- end -}}
+    {{- end -}}
+{{- end -}}
+
+<h{{ $level }}>{{ $text | safeHTML }}</h{{ $level }}>

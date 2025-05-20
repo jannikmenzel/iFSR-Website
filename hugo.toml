@@ -14,3 +14,9 @@ source = 'images'
 target = 'static/images'
 
 disableXML = true
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.parser]
+[markup.goldmark.parser.attribute]
+title = true
