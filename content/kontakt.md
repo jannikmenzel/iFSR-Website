@@ -11,7 +11,7 @@ Der Fachschaftsrat Informatik steht dir in sämtlichen Studienbelangen zur Seite
 
 ## [alternate_email] Social Media
 
-[Mailinglisten](https://lists.ifsr.de/mailman3/lists/) · [Instagram](https://instagram.com/fsr.inf) · [Telegram](https://t.me/fsr_inf) · [Matrix](https://matrix.to/#/#fsr-inf-studierende:matrix.org)
+[Mailinglisten](https://lists.ifsr.de/mailman3/lists/) · [Instagram](https://www.instagram.com/ifsrde) · [Telegram](https://t.me/s/ifsrde) · [Matrix](https://matrix.tu-dresden.de/#/room/#ifsr:tu-dresden.de)
 
 ---
 
