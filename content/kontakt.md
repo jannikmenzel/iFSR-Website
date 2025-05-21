@@ -7,7 +7,7 @@ draft = false
 
 Der Fachschaftsrat Informatik steht dir in sämtlichen Studienbelangen zur Seite. Du findest unser Büro im APB im [Raum E017](https://navigator.tu-dresden.de/etplan/apb/00/raum/542100.2230) direkt neben dem [ascii](https://ascii-dresden.de/). Konkrete Kontaktwege zu unserer Studienberatung findest du [hier](/studium/studienberatung) auf unserer Unterseite. Für kurze Fragen, die auch andere Studierende interessieren, kannst du uns gern auf unserem öffentlichen Matrix-Kanal anschreiben. Den Kanal findest du [hier](https://matrix.to/#/#fsr-inf-studierende:matrix.org). Auch der [Studierendenrat (StuRa)](https://www.stura.tu-dresden.de/) oder das [Studentenwerk](https://www.studentenwerk-dresden.de/) sind mögliche Anlaufstellen. Einen Überblick mit Kontaktmöglichkeiten über deine aktuellen gewählten Vertreter_innen findest du auf der Seite der [FSR Mitglieder](/about/mitglieder).
 
-
+---
 
 ## [alternate_email] Social Media
 
