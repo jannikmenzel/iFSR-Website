@@ -1,7 +1,8 @@
-+++
-title = "Studienberatung"
-draft = false
-+++
+---
+title: "Studienberatung"
+draft: false
+url: /studium/studienberatung/
+---
 
 # Studienberatung
 

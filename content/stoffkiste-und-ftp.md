@@ -1,7 +1,8 @@
-+++
-title = "Stoffkiste & FTP"
-draft = false
-+++
+---
+title: "Stoffkiste & FTP"
+draft: false
+url: /studium/stoffkiste-und-ftp/
+---
 
 # Stoffkiste & FTP
 

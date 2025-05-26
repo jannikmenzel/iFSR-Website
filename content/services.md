@@ -1,7 +1,8 @@
-+++
-title = "Services"
-draft = false
-+++
+---
+title: "Services"
+draft: false
+url: /studium/services/
+---
 
 # Services
 

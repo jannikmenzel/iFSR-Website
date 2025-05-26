@@ -1,11 +1,11 @@
-+++
-title = "Kontakt"
-draft = false
-+++
+---
+title: "Kontakt"
+draft: false
+---
 
 # Kontakt
 
-Der Fachschaftsrat Informatik steht dir in sämtlichen Studienbelangen zur Seite. Du findest unser Büro im APB im [Raum E017](https://navigator.tu-dresden.de/etplan/apb/00/raum/542100.2230) direkt neben dem [ascii](https://ascii-dresden.de/). Konkrete Kontaktwege zu unserer Studienberatung findest du [hier](/studium/studienberatung) auf unserer Unterseite. Für kurze Fragen, die auch andere Studierende interessieren, kannst du uns gern auf unserem öffentlichen Matrix-Kanal anschreiben. Den Kanal findest du [hier](https://matrix.to/#/#fsr-inf-studierende:matrix.org). Auch der [Studierendenrat (StuRa)](https://www.stura.tu-dresden.de/) oder das [Studentenwerk](https://www.studentenwerk-dresden.de/) sind mögliche Anlaufstellen. Einen Überblick mit Kontaktmöglichkeiten über deine aktuellen gewählten Vertreter_innen findest du auf der Seite der [FSR Mitglieder](/about/mitglieder).
+Der Fachschaftsrat Informatik steht dir in sämtlichen Studienbelangen zur Seite. Du findest unser Büro im APB im [Raum E017](https://navigator.tu-dresden.de/etplan/apb/00/raum/542100.2230) direkt neben dem [ascii](https://ascii-dresden.de/). Konkrete Kontaktwege zu unserer Studienberatung findest du [hier](/content/studienberatung.md) auf unserer Unterseite. Für kurze Fragen, die auch andere Studierende interessieren, kannst du uns gern auf unserem öffentlichen Matrix-Kanal anschreiben. Den Kanal findest du [hier](https://matrix.to/#/#fsr-inf-studierende:matrix.org). Auch der [Studierendenrat (StuRa)](https://www.stura.tu-dresden.de/) oder das [Studentenwerk](https://www.studentenwerk-dresden.de/) sind mögliche Anlaufstellen. Einen Überblick mit Kontaktmöglichkeiten über deine aktuellen gewählten Vertreter_innen findest du auf der Seite der [FSR Mitglieder](/content/mitglieder.md).
 
 ---
 
@@ -26,10 +26,10 @@ Gerne nehmen wir auch Sponsoring-Anfragen zur Unterstützung des Fachschaftsrate
 > Für allgemeine Fragen/Anmerkungen gerne diese E-Mail:
 > - Fachschaftsrat: [fsr@ifsr.de](mailto:fsr@ifsr.de)
 
-> Wer eine Umfrage an die Studierenden der Fakultät weiterleiten möchte, kann gerne an die folgende E-Mail-Adresse eine Mail schreiben. Dabei handelt es sich um einen E-Mail-Verteiler, der diese dann nach Freischaltung durch uns an alle Interessierten weiterleitet.  
+> Wer eine Umfrage an die Studierenden der Fakultät weiterleiten möchte, kann gerne an die folgende E-Mail-Adresse eine Mail schreiben. Dabei handelt es sich um einen E-Mail-Verteiler, der diese dann nach Freischaltung durch uns an alle Interessierten weiterleitet.
 > - Umfragen: [umfragen@ifsr.de](mailto:umfragen@ifsr.de)
 
-> Für weitere Anfragen von Externen, die an Studierende weitergeleitet werden sollen (z.B. Stellenangebote), nutzen Sie bitte die nachfolgende Adresse. Es handelt sich hier ebenfalls um einen E-Mail-Verteiler. Auch hier die Mail bitte direkt an unsere Studierenden richten.  
+> Für weitere Anfragen von Externen, die an Studierende weitergeleitet werden sollen (z.B. Stellenangebote), nutzen Sie bitte die nachfolgende Adresse. Es handelt sich hier ebenfalls um einen E-Mail-Verteiler. Auch hier die Mail bitte direkt an unsere Studierenden richten.
 > - Extern: [extern@ifsr.de](mailto:extern@ifsr.de)
 
 ---

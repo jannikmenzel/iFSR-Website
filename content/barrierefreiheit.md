@@ -1,7 +1,7 @@
-+++
-title = "Barrierefreiheit"
-draft = false
-+++
+---
+title: "Barrierefreiheit"
+draft: false
+---
 
 # Barrierefreiheit
 

@@ -1,5 +1,16 @@
-backend:
-  name: git-gateway
-  branch: main
 media_folder: "static/images"
 public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Seiten"
+    folder: "content"
+    create: false
+    editor:
+      preview: false
+    slug: "{{slug}}"
+    fields:
+      - { label: "Titel", name: "title", widget: "string" }
+      - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+      - { label: "Inhalt", name: "body", widget: "markdown" }
+      - { label: "URL", name: "url", widget: "string", required: false }

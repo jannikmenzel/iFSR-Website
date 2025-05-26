@@ -1,7 +1,8 @@
-+++
-title = "Entsendungen"
-draft = false
-+++
+---
+title: "Entsendungen"
+draft: false
+url: /about/entsendungen/
+---
 
 # Entsendungen
 

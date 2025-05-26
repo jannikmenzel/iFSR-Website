@@ -1,7 +1,7 @@
-+++
-title = "Studium"
-draft = false
-+++
+---
+title: "Studium"
+draft: false
+---
 
 # Studium
 

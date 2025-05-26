@@ -1,6 +1,6 @@
-+++
-title = "Events"
-draft = false
-+++
+---
+title: "Events"
+draft: false
+---
 
 # Events

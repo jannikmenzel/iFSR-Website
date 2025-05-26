@@ -1,7 +1,8 @@
-+++
-title = "Ordnugnen"
-draft = false
-+++
+---
+title: "Ordnugnen"
+draft: false
+url: /about/ordnungen/
+---
 
 # Ordnungen
 

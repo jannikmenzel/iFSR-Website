@@ -1,7 +1,7 @@
-+++
-title = "Sitzung und Protokolle"
-draft = false
-+++
+---
+title: "Sitzung und Protokolle"
+draft: false
+---
 
 # Sitzung und Protokolle
 

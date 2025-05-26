@@ -133,6 +133,10 @@ li .dropdown-item-mobile {
     margin-top: 0;
 }
 
+.dropdown-icon {
+    margin-left: -1rem;
+}
+
 .dropdown-menu .dropdown-item:active {
     background-color: var(--color-off);
     color: var(--color-text);
@@ -608,6 +612,10 @@ footer {
 
     .dropdown-item-mobile {
         margin: 0.4rem 0 0.4rem 0;
+    }
+
+    .dropdown-icon {
+        display: none !important;
     }
 
     .hero-section {

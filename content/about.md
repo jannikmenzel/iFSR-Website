@@ -1,7 +1,7 @@
-+++
-title = "Über Uns"
-draft = false
-+++
+---
+title: "Über Uns"
+draft: false
+---
 
 # Über Uns
 

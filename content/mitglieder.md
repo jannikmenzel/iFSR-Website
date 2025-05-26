@@ -1,7 +1,8 @@
-+++
-title = "Mitglieder"
-draft = false
-+++
+---
+title: "Mitglieder"
+draft: false
+url: /about/mitglieder/
+---
 
 # Mitglieder
 

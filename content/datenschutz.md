@@ -1,7 +1,7 @@
-+++
-title = "Datenschutz"
-draft = false
-+++
+---
+title: "Datenschutz"
+draft: false
+---
 
 # Datenschutz
 

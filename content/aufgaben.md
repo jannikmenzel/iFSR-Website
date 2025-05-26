@@ -1,7 +1,8 @@
-+++
-title = "Aufgaben"
-draft = false
-+++
+---
+title: "Aufgaben"
+draft: false
+url: /about/aufgaben/
+---
 
 # Aufgaben
 

@@ -1,7 +1,8 @@
-+++
-title = "Linksammlung"
-draft = false
-+++
+---
+title: "Linksammlung"
+draft: false
+url: /studium/linksammlung/
+---
 
 # Linksammlung
 

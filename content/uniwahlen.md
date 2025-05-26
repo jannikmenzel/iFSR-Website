@@ -1,7 +1,8 @@
-+++
-title = "Uniwahlen"
-draft = false
-+++
+---
+title: "Uniwahlen"
+draft: false
+url: /about/uniwahlen/
+---
 
 # Uniwahlen
 

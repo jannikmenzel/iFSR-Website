@@ -1,6 +1,6 @@
-+++
-title = "Neuigkeiten"
-draft = false
-+++
+---
+title: "Neuigkeiten"
+draft: false
+---
 
 # Neuigkeiten

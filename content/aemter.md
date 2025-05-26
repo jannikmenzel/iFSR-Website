@@ -1,7 +1,8 @@
-+++
-title = "Ämter"
-draft = false
-+++
+---
+title: "Ämter"
+draft: false
+url: /about/aemter/
+---
 
 # Ämter
 

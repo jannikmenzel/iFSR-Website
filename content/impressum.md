@@ -1,7 +1,7 @@
-+++
-title = "Impressum"
-draft = false
-+++
+---
+title: "Impressum"
+draft: false
+---
 
 # Impressum
 
