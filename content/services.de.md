@@ -10,7 +10,7 @@ Der iFSR bietet eine Vielzahl von Angeboten an. Egal ob du etwas drucken oder ko
 
 ---
 
-## [print] Drucken & Kopieren
+## \[print] Drucken & Kopieren
 
 ### Schwarz/Weiß
 
@@ -35,7 +35,7 @@ Der iFSR bietet eine Vielzahl von Angeboten an. Egal ob du etwas drucken oder ko
 
 ---
 
-## [handyman] Geräte ausleihen
+## \[handyman] Geräte ausleihen
 
 Der Fachschaftsrat bietet diverse Geräte zum Verleih an, z.B.:
 
@@ -52,7 +52,7 @@ Der Fachschaftsrat bietet diverse Geräte zum Verleih an, z.B.:
 
 ---
 
-## [lightbulb] Notenrechner
+## \[lightbulb] Notenrechner
 
 Für folgende Studiengänge gibt es einen [**Online-Notenrechner**](https://notenrechner.ifsr.de/):
 
@@ -68,7 +68,7 @@ Für folgende Studiengänge gibt es einen [**Online-Notenrechner**](https://note
 
 ---
 
-## [sports_esports] Spieleverleih
+## \[sports_esports] Spieleverleih
 
 Wir haben eine große Auswahl an Spielen in gutem Zustand:
 

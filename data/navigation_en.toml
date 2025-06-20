@@ -1,0 +1,115 @@
+[menu]
+
+# ====================
+# Main menu: Home
+# ====================
+[[menu.main]]
+name = "Home"
+url = "/en/"
+weight = 1
+
+# ====================
+# Main menu: About Us
+# ====================
+[[menu.main]]
+name = "About Us"
+url = "/en/about"
+weight = 2
+
+# Submenus of "About Us"
+[[menu.main]]
+parent = "About Us"
+name = "Tasks"
+url = "/en/about/aufgaben"
+weight = 1
+
+[[menu.main]]
+parent = "About Us"
+name = "Members"
+url = "/en/about/mitglieder"
+weight = 2
+
+[[menu.main]]
+parent = "About Us"
+name = "Offices"
+url = "/en/about/aemter"
+weight = 3
+
+[[menu.main]]
+parent = "About Us"
+name = "Delegations"
+url = "/en/about/entsendungen"
+weight = 4
+
+[[menu.main]]
+parent = "About Us"
+name = "Regulations"
+url = "/en/about/ordnungen"
+weight = 5
+
+[[menu.main]]
+parent = "About Us"
+name = "University Elections"
+url = "/en/about/uniwahlen"
+weight = 6
+
+# ====================
+# Main menu: Studies
+# ====================
+[[menu.main]]
+name = "Studies"
+url = "/en/studium"
+weight = 3
+
+# Submenus of "Studies"
+[[menu.main]]
+parent = "Studies"
+name = "Study Counseling"
+url = "/en/studium/studienberatung"
+weight = 1
+
+[[menu.main]]
+parent = "Studies"
+name = "Material Box & FTP"
+url = "/en/studium/stoffkiste-und-ftp"
+weight = 2
+
+[[menu.main]]
+parent = "Studies"
+name = "Manual"
+url = "https://manual.ifsr.de"
+weight = 3
+
+[[menu.main]]
+parent = "Studies"
+name = "Services"
+url = "/en/studium/services"
+weight = 4
+
+[[menu.main]]
+parent = "Studies"
+name = "Link Collection"
+url = "/en/studium/linksammlung"
+weight = 5
+
+[[menu.main]]
+parent = "Studies"
+name = "Programming Courses"
+url = "https://kurse.ifsr.de/"
+weight = 6
+
+# ====================
+# Main menu: Meetings & Protocols
+# ====================
+[[menu.main]]
+name = "Meetings & Protocols"
+url = "/en/sitzung-und-protokolle"
+weight = 4
+
+# ====================
+# Main menu: Contact
+# ====================
+[[menu.main]]
+name = "Contact"
+url = "/en/kontakt"
+weight = 5

@@ -9,7 +9,7 @@
         </button>
 
         <div class="collapse navbar-collapse" id="mainNav">
-            {{ $items := site.Data.navigation.menu.main }}
+            {{ $items := cond (eq .Site.Language.Lang "en") site.Data.navigation_en.menu.main site.Data.navigation_de.menu.main }}
             <ul class="navbar-nav ms-auto align-items-lg-center">
                 {{ range $i := $items }}
                     {{ if not $i.parent }}

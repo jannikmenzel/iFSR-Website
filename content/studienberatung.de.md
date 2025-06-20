@@ -6,7 +6,7 @@ url: /studium/studienberatung/
 
 # Studienberatung
 
-## [group] Fachspezifische Studienberatung
+## \[group] Fachspezifische Studienberatung
 
 Für jedes Studienfach gibt es eine festangestellte Studienfachberatung. Sie hilft bei Fragen zu:
 - Bewerbung
@@ -30,7 +30,7 @@ Sprechzeiten & weitere Infos: [Beratungs-Seite der Fakultät](https://tu-dresden
 
 ---
 
-## [language] Zentrale Studienberatung der TU Dresden
+## \[language] Zentrale Studienberatung der TU Dresden
 
 Die **Zentrale Studienberatung** hilft bei:
 - Studiengangswechsel
@@ -44,7 +44,7 @@ Ansprechpartnerin für unsere Fakultät:
 
 ---
 
-## [experiment] Eignungstests
+## \[experiment] Eignungstests
 
 Du bist dir noch unsicher, ob ein Informatikstudium das Richtige für dich ist?  
 Hier findest du Hilfestellungen, um deine Interessen und Vorkenntnisse besser einschätzen zu können.
@@ -55,7 +55,7 @@ Lass dich von einem unerwarteten Testergebnis nicht entmutigen!
 Es kann dir zeigen, dass du deine Vorstellungen vom Studienfach noch einmal überdenken solltest.  
 Umgekehrt ist ein gutes Ergebnis natürlich auch kein Selbstläufer für ein leichtes Studium – Informatik bleibt herausfordernd.
 
-## [newsstand] Vorbereitungskurs Informatik
+## \[newsstand] Vorbereitungskurs Informatik
 
 Du möchtest direkt prüfen, wie gut du mit Inhalten aus dem Studium klarkommst?  
 Dann probier doch den **Vorbereitungskurs Informatik** aus!  
@@ -65,7 +65,7 @@ Dort werden die Grundlagen behandelt, die in den ersten Semestern eine Rolle spi
 
 Wenn dir das Lernen Spaß macht und du gut mitkommst, ist das ein gutes Zeichen für deine Studienwahl!
 
-## [explore] Weitere Informationsquellen
+## \[explore] Weitere Informationsquellen
 
 Bei Fragen rund ums Informatikstudium helfen dir auch:
 - [Studienberatung](https://tu-dresden.de/studium/im-studium/beratung-und-service/zentrale-studienberatung)

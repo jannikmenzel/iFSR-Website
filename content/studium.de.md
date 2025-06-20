@@ -7,17 +7,19 @@ draft: false
 
 Hier findest du eine Zusammenstellung von hilfreichen Informationen rund ums Informatikstudium – egal ob du dich gerade dafür entscheidest, ins Ausland möchtest oder schon deinen Master planst.
 
-## [school] Studienangebot
+## \[school] Studienangebot
 
 > Das komplette Studienangebot an der Fakultät Informatik findest du hier: [Studiengänge der Fakultät Informatik](https://tu-dresden.de/ing/informatik/studium/studienangebot)
 
-## [public] Auslandsstudium
+## \[public] Auslandsstudium
 
 Ein Auslandsaufenthalt im Studium ist eine großartige Möglichkeit, Erfahrungen zu sammeln, andere Kulturen kennenzulernen und deinen Horizont zu erweitern.
 
 {{< details
 title="Voraussetzungen"
 number="01" >}}
+
+---
 
 Für ein erfolgreiches Auslandsstudium solltest du mitbringen:
 
@@ -31,6 +33,8 @@ Für ein erfolgreiches Auslandsstudium solltest du mitbringen:
 {{< details
 title="Vorbereitungen"
 number="02" >}}
+
+---
 
 Beginne idealerweise 18 Monate vor deinem geplanten Aufenthalt mit der Planung. Hier eine hilfreiche Checkliste:
 
@@ -52,6 +56,8 @@ Besonders innerhalb Europas sorgt das ECTS-System für einfachere Anerkennung de
 title="Ansprechpartner"
 number="03" >}}
 
+---
+
 > **Erasmus-Koordinator:** PD Dr.-Ing. habil. Waltenegus Dargie [waltenegus.dargie@tu-dresden.de](mailto:waltenegus.dargie@tu-dresden.de)
 
 Mehr Informationen auf der [Fakultäts-Seite zu Erasmus](https://tu-dresden.de/ing/informatik/internationales/erasmus)
@@ -61,6 +67,8 @@ Mehr Informationen auf der [Fakultäts-Seite zu Erasmus](https://tu-dresden.de/i
 {{< details
 title="Weitere Links"
 number="04" >}}
+
+---
 
 - [International Office (ehemals AAA)](https://tu-dresden.de/studium/im-studium/beratung-und-service/international-office)
 - [DAAD – Deutscher Akademischer Austauschdienst](https://www.daad.de/)

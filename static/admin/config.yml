@@ -1,16 +1,342 @@
+backend:
+  name: gitea
+  branch: main
+  repo: FSR/webseite
+  app_id: b634f97b-1525-4382-96d3-b1fa08858fd3
+  api_root: https://git.ifsr.de/api/v1
+  base_url: https://git.ifsr.de
+  auth_endpoint: https://git.ifsr.de/login/oauth/authorize
 media_folder: "static/images"
 public_folder: "/images"
 
 collections:
-  - name: "pages"
-    label: "Seiten"
-    folder: "content"
-    create: false
-    editor:
-      preview: false
-    slug: "{{slug}}"
-    fields:
-      - { label: "Titel", name: "title", widget: "string" }
-      - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
-      - { label: "Inhalt", name: "body", widget: "markdown" }
-      - { label: "URL", name: "url", widget: "string", required: false }
+  - name: "home-ger"
+    label: "Home (GER)"
+    files:
+      - file: "content/about.de.md"
+        label: "Über Uns"
+        name: "about"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/studium.de.md"
+        label: "Studium"
+        name: "studium"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/sitzung-und-protokolle.de.md"
+        label: "Sitzung und Protokolle"
+        name: "sitzung-und-protokolle"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/kontakt.de.md"
+        label: "Kontakt"
+        name: "kontakt"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+  - name: "about"
+    label: "About (GER)"
+    files:
+      - file: "content/aufgaben.de.md"
+        label: "Aufgaben"
+        name: "aufgaben"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/mitglieder.de.md"
+        label: "Mitglieder"
+        name: "mitglieder"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/aemter.de.md"
+        label: "Ämter"
+        name: "aemter"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/entsendungen.de.md"
+        label: "Entsendungen"
+        name: "entsendungen"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/ordnungen.de.md"
+        label: "Ordnungen"
+        name: "ordnungen"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/uniwahlen.de.md"
+        label: "Uniwahlen"
+        name: "uniwahlen"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+  - name: "studium"
+    label: "Studium (GER)"
+    files:
+      - file: "content/studienberatung.de.md"
+        label: "Studienberatung"
+        name: "studienberatung"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/stoffkiste-und-ftp.de.md"
+        label: "Stoffkiste und FTP"
+        name: "stoffkiste-und-ftp"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/services.de.md"
+        label: "Services"
+        name: "services"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/linksammlung.de.md"
+        label: "Linksammlung"
+        name: "linksammlung"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+  - name: "meta"
+    label: "Meta (GER)"
+    files:
+      - file: "content/barrierefreiheit.de.md"
+        label: "Barrierefreiheit"
+        name: "barrierefreiheit"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/datenschutz.de.md"
+        label: "Datenschutz"
+        name: "datenschutz"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/impressum.de.md"
+        label: "Impressum"
+        name: "impressum"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+  - name: "home-eng"
+    label: "Home (ENG)"
+    files:
+      - file: "content/about.en.md"
+        label: "Über Uns"
+        name: "about"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/studium.en.md"
+        label: "Studium"
+        name: "studium"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/sitzung-und-protokolle.en.md"
+        label: "Sitzung und Protokolle"
+        name: "sitzung-und-protokolle"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/kontakt.en.md"
+        label: "Kontakt"
+        name: "kontakt"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+  - name: "about-eng"
+    label: "About (ENG)"
+    files:
+      - file: "content/aufgaben.en.md"
+        label: "Aufgaben"
+        name: "aufgaben"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/mitglieder.en.md"
+        label: "Mitglieder"
+        name: "mitglieder"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/aemter.en.md"
+        label: "Ämter"
+        name: "aemter"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/entsendungen.en.md"
+        label: "Entsendungen"
+        name: "entsendungen"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/ordnungen.en.md"
+        label: "Ordnungen"
+        name: "ordnungen"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/uniwahlen.en.md"
+        label: "Uniwahlen"
+        name: "uniwahlen"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+  - name: "studium-eng"
+    label: "Studium (ENG)"
+    files:
+      - file: "content/studienberatung.en.md"
+        label: "Studienberatung"
+        name: "studienberatung"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/stoffkiste-und-ftp.en.md"
+        label: "Stoffkiste und FTP"
+        name: "stoffkiste-und-ftp"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/services.en.md"
+        label: "Services"
+        name: "services"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/linksammlung.en.md"
+        label: "Linksammlung"
+        name: "linksammlung"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+  - name: "meta-eng"
+    label: "Meta (ENG)"
+    files:
+      - file: "content/barrierefreiheit.en.md"
+        label: "Barrierefreiheit"
+        name: "barrierefreiheit"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/datenschutz.en.md"
+        label: "Datenschutz"
+        name: "datenschutz"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }
+      - file: "content/impressum.en.md"
+        label: "Impressum"
+        name: "impressum"
+        editor:
+          preview: false
+        fields:
+          - { label: "Titel", name: "title", widget: "string" }
+          - { label: "Entwurf", name: "draft", widget: "boolean", default: false }
+          - { label: "Inhalt", name: "body", widget: "markdown" }

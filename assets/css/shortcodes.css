@@ -20,6 +20,7 @@
 
 #markdown .profile-content {
     flex: 1;
+    margin-top: 1rem;
 }
 
 @media (max-width: 768px) {
@@ -30,7 +31,12 @@
     }
 
     #markdown .profile-content {
-        text-align: center;
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        width: 100%;
     }
 }
 
@@ -119,7 +125,7 @@
     height: 3rem !important;
     flex-shrink: 0;
     align-items: center;
-    margin: 0.5rem 1rem 0 0 !important;
+    margin: 0.5rem 1rem 0 1rem !important;
     color: var(--color-text);
 }
 
@@ -142,4 +148,10 @@
 
 #markdown .details.expanded .details-content a:hover {
     text-decoration: none !important;
+}
+
+@media (max-width: 768px) {
+    .details-number {
+        display: none;
+    }
 }

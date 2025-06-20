@@ -4,7 +4,7 @@
 #markdown {
     max-width: 80%;
     margin: 0 auto;
-    padding: 3rem 0 3rem 0;
+    padding-top: 3rem;
     hyphens: auto;
     text-align: left;
     line-height: 1.8;
@@ -22,6 +22,15 @@
     padding: 5px 10px;
     display: inline-block;
     box-shadow: 0 4px 0 0 var(--color-text);
+}
+
+#markdown.title-center {
+    text-align: center;
+}
+
+#markdown.title-center h1 {
+    display: inline-block;
+    text-align: center;
 }
 
 .dark #markdown h1 {

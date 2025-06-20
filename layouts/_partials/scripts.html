@@ -1,0 +1,23 @@
+<!-- Localization Auto Redirect -->
+{{ if .IsHome }}
+    <script>
+        const cachedLang = localStorage.getItem("language");
+        const path = window.location.pathname;
+
+        if (cachedLang) {
+            if (cachedLang === "de" && path !== "/") {
+                window.location.href = "/";
+            } else if (cachedLang === "en" && path !== "/en/") {
+                window.location.href = "/en/";
+            }
+        } else {
+            const lang = navigator.language;
+
+            if (lang.startsWith("de")) {
+                localStorage.setItem("language", "de");
+            } else {
+                localStorage.setItem("language", "en");
+            }
+        }
+    </script>
+{{ end }}

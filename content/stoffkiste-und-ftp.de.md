@@ -6,7 +6,7 @@ url: /studium/stoffkiste-und-ftp/
 
 # Stoffkiste & FTP
 
-## [category] Stoffkiste
+## \[category] Stoffkiste
 
 In der **Stoffkiste** findet ihr eine umfangreiche Lernstoffsammlung zu verschiedenen Modulen.
 
@@ -14,7 +14,7 @@ Wenn ihr Fehler findet oder etwas ergänzen möchtet, könnt ihr auf [GitHub](ht
 
 > Zugriff auf alle Materialien: [stoffkiste.ifsr.de](https://stoffkiste.ifsr.de)
 
-## [folder_open] FTP-Server
+## \[folder_open] FTP-Server
 
 Unser **FTP-Server** bietet Zugriff auf eine Vielzahl von Materialien aus dem Studium:
 - Altklausuren

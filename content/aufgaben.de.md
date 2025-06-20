@@ -6,7 +6,7 @@ url: /about/aufgaben/
 
 # Aufgaben
 
-## [computer] Admins
+## \[computer] Admins
 Die Admins stellen sicher, dass die Infrastruktur funktioniert:
 - Verwaltung des FSR-Servers (Mails, Dateiverwaltung, Webservices)
 - Einsatz von **NixOS** als Betriebssystem  
@@ -16,7 +16,7 @@ Die Admins stellen sicher, dass die Infrastruktur funktioniert:
 
 ---
 
-## [rocket_launch] Orga der Erstsemestereinführung (ESE)
+## \[rocket_launch] Orga der Erstsemestereinführung (ESE)
 Über ein halbes Jahr vor der Veranstaltung beginnt die Planung. Verantwortliche Personen koordinieren viele Helfer\_innen in Bereichen wie:
 - Veranstaltungsplanung
 - Raumorganisation
@@ -27,7 +27,7 @@ Die Admins stellen sicher, dass die Infrastruktur funktioniert:
 
 ---
 
-## [campaign] AG Öffentlichkeitsarbeit
+## \[campaign] AG Öffentlichkeitsarbeit
 Wir kümmern uns um:
 - Pflege der Website
 - Schreiben von Infotexten
@@ -40,7 +40,7 @@ Kreative Köpfe willkommen!
 
 ---
 
-## [eco] AG Nachhaltigkeit
+## \[eco] AG Nachhaltigkeit
 Wir setzen uns für ressourcenschonendes Arbeiten ein:
 - Nachhaltigkeit bei der ESE
 - umweltfreundliches Büro
@@ -50,7 +50,7 @@ Wir setzen uns für ressourcenschonendes Arbeiten ein:
 
 ---
 
-## [school] AG Lehre
+## \[school] AG Lehre
 Kernaufgabe: Verbesserung der Lehre!
 - Diskussion zu Studiengangsreformen
 - Qualität von Lehrveranstaltungen
@@ -61,7 +61,7 @@ Kernaufgabe: Verbesserung der Lehre!
 
 ---
 
-## [sports_esports] Spieleabend-Taskforce
+## \[sports_esports] Spieleabend-Taskforce
 Wir organisieren die beliebten Spieleabende:
 - Vorbereitung von Räumen und Materialien
 - Organisation von Snacks & Getränken
@@ -72,7 +72,7 @@ Wir organisieren die beliebten Spieleabende:
 
 ---
 
-## [wand_stars] WANTED: Deine Unterstützung!
+## \[wand_stars] WANTED: Deine Unterstützung!
 
 Es gab viele weitere AGs, die wir gern wiederbeleben würden:
 

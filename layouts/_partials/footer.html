@@ -1,13 +1,55 @@
 <!-- Footer -->
 <footer class="footer">
     <div class="container text-center">
-        <p>&copy; 2025 iFSR. Alle Rechte vorbehalten.</p>
+        <p>
+            {{ if eq .Site.Language.Lang "de" }}
+                &copy; 2025 iFSR. Alle Rechte vorbehalten.
+            {{ else }}
+                &copy; 2025 iFSR. All rights reserved.
+            {{ end }}
+        </p>
         <nav class="footer-nav">
             <ul>
-                <li><a href="/barrierefreiheit">Barrierefreiheit</a></li>
-                <li><a href="/datenschutz">Datenschutz</a></li>
-                <li><a href="/impressum">Impressum</a></li>
+                <li>
+                    <a href="{{ if eq .Site.Language.Lang "de" }}/barrierefreiheit{{ else }}/en/barrierefreiheit{{ end }}">
+                        {{ if eq .Site.Language.Lang "de" }}Barrierefreiheit{{ else }}Accessibility{{ end }}
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ if eq .Site.Language.Lang "de" }}/datenschutz{{ else }}/en/datenschutz{{ end }}">
+                        {{ if eq .Site.Language.Lang "de" }}Datenschutz{{ else }}Privacy{{ end }}
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ if eq .Site.Language.Lang "de" }}/impressum{{ else }}/en/impressum{{ end }}">
+                        {{ if eq .Site.Language.Lang "de" }}Impressum{{ else }}Legal Notice{{ end }}
+                    </a>
+                </li>
+            </ul>
+            <hr>
+            <ul>
+                <li>
+                    <a href="#" id="lang-de-link">
+                        {{ if eq .Site.Language.Lang "de" }}Deutsch{{ else }}German{{ end }}
+                    </a>
+                </li>
+                <li>|</li>
+                <li>
+                    <a href="#" id="lang-en-link">English</a>
+                </li>
             </ul>
         </nav>
     </div>
+<script>
+  document.getElementById('lang-en-link').addEventListener('click', function(event) {
+    event.preventDefault();
+    localStorage.setItem('language', 'en');
+    window.location.pathname = '/en' + window.location.pathname.replace(/^\/(de|en)/, '');
+  });
+  document.getElementById('lang-de-link').addEventListener('click', function(event) {
+    event.preventDefault();
+    localStorage.setItem('language', 'de');
+    window.location.pathname = '/' + window.location.pathname.replace(/^\/(de|en)/, '');
+  });
+</script>
 </footer>

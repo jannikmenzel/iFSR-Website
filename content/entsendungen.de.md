@@ -1,5 +1,5 @@
 ---
-title: "Entsendungen"
+title: Entsendungen
 draft: false
 url: /about/entsendungen/
 ---
@@ -32,9 +32,9 @@ Er hat 37 Mitglieder, die von den Fachschaften entsandt werden – ein guter Ort
 - Entscheidungen über finanzielle Mittel und ideelle Unterstützungen
 
 **Vertreter:innen der Fachschaft Informatik:**
-- **Kevin Vogel** – Basisvertreter – [kevin.vogel@ifsr.de](mailto:kevin.vogel@ifsr.de)
-- **Roman Roller** – weiterer Vertreter – [roman.roller@ifsr.de](mailto:roman.roller@ifsr.de)
-- **Arthur Wolf** – Ersatzvertreter – [arthur.wolf@ifsr.de](mailto:arthur.wolf@ifsr.de)
+- **Kevin Vogel** – Basisvertreter
+- **Roman Roller** – weiterer Vertreter
+- **Arthur Wolf** – Ersatzvertreter
 
 {{< /details >}}
 
@@ -59,10 +59,8 @@ Der **Fakultätsrat** ist das "Parlament der Fakultät". Er entscheidet in monat
 **Gewählt durch die Universitätswahlen.**
 
 **Vertreter:innen:**
-- **Helene Hausmann** – [helene.hausmann@ifsr.de](mailto:helene.hausmann@ifsr.de)
-- **Johanna Berger** – [johanna.berger@ifsr.de](mailto:johanna.berger@ifsr.de)
-- **Joachim Stramke** – [joachim.stramke@ifsr.de](mailto:joachim.stramke@ifsr.de)
-- **Kenny Weidemann** – [kenny.weidemann@ifsr.de](mailto:kenny.weidemann@ifsr.de)
+- **Helene Hausmann**
+- **Johanna Berger**
 
 {{< /details >}}
 
@@ -81,18 +79,21 @@ Für jeden Studiengang existiert ein eigener Ausschuss.
 
 **Vertreter:innen** (Auswahl):
 
-- **Informatik (B.Sc.)**: Vincent Kruse, Lyn Fugmann, Helene Hausmann (V)
-- **Medieninformatik (B.Sc.)**: Eliah Lohr, Yazan Raee, Helene Hausmann (V)
+- **Informatik (B.Sc.)**: Macy Schreiber, Roman Roller, Lyn Fugmann (V)
+- **Informatik (Dipl.)**: Vincent Kruse, Erik Schlafke (V)
+- **Informatik (M.Sc.)**: Vincent Kruse, Erik Schlafke (V)
+- **Medieninformatik (B.Sc.)**: Eliah Lohr, Kenny Weidemann, Yazan Raee (V)
+- **Medieninformatik (M.Sc.)**: Yazan Raee, Eliah Lohr (V)
 - **DSE**: Antonia Obersteiner, Marco Lehner (V)
 - **CMS**: Himanshu Manoj Kaloni, Fabian Naumann
-- **Lehramt**: Maximilian Rothe (alle)
+- **Lehramt (alle)**: Vincent Kruse, Kenny Weidemann
 
 **Wir suchen Nachfolger:innen für Lehramtsvertretungen.**
 
 {{< /details >}}
 
 {{< details
-title="Studienkommissionen (veraltet, wird bald aktualisiert)"
+title="Studienkommissionen"
 number="04" >}}
 
 ---
@@ -101,10 +102,10 @@ Diese Kommissionen beraten und beschließen Änderungen an Studien- und Prüfung
 
 **Vertreter:innen** (Auswahl):
 
-- **Informatik (B.Sc./M.Sc.)**: Vincent Kruse, Jakob Steinberg
-- **Medieninformatik (B.Sc./M.Sc.)**: Jacques-Maurice Walther, Helene Hausmann
-- **CMS**: Rajasekar Sankar, Muhammad Irtaza Khan u.a.
-- **CL**: Lydia Will, Helene Hausmann
+- **Informatik (B.Sc./M.Sc.)**: Helene Hausmann, Roman Roller, Eliah Lohr (V)
+- **Informatik (Dipl.)**: Vincent Kruse, Antonia Obersteiner, Erik Schlafke (V)
+- **Medieninformatik (B.Sc./M.Sc.)**: Eliah Lohr, Kenny Weidemann, Yazan Raee (V)
+- **CMS**: Laxminarayan Prasad Shenoy, Muhammad Haris Qureshi, Hamza Aslam (V), Fabian Naumann (V)
 
 {{< /details >}}
 
@@ -118,10 +119,13 @@ number="05" >}}
 - interne Organisation & Kommunikation in den Studiengängen
 
 **Koordinator:innen:**
-- **Informatik (B.Sc.)**: Helene Hausmann
-- **Medieninformatik (M.Sc.)**: Kenny Weidemann
+- **Informatik (B.Sc.)**: Vincent Kruse
+- **Informatik (M.Sc.)**: Nico Behrens
+- **Informatik (Dipl.)**: Johanna Berger
+- **Medieninformatik (B.Sc.)**: Eliah Lohr
+- **Medieninformatik (M.Sc.)**: Lyn Fugmann
 - **CMS (M.Sc.)**: Hamza Aslam
-- **Lehramt (alle)**: Eliah Lohr
+- **Lehramt Informatik (alle)**: Eliah Lohr (Ersatz für WMA), Helene Hausmann (V)
 - **CSE**: Wolfgang Walther
 
 {{< /details >}}
@@ -133,12 +137,12 @@ number="06" >}}
 ---
 
 **Mitglieder:**
-- **Informatik (M.Sc.)**: Franz Rodestock
+- **Informatik (M.Sc.)**: Fabian Naumann
+- **Computer Science (M.Sc.)**: unbesetzt, Einführung erfolgt zum WiSe 2025/26
 - **Medieninformatik (M.Sc.)**: Lyn Fugmann
-- **CMS**: Rajasekar Sankar
-- **CL**: Lydia Will
+- **CMS**: Muhammad Haris Qureshi
 
-> In den Programmen **DSE** und **CL** suchen wir engagierte Studierende zur Mitwirkung!
+Der Studiengang Master Informatik wird 
 
 {{< /details >}}
 

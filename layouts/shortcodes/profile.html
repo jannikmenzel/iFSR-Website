@@ -4,8 +4,7 @@
     </div>
     <div class="profile-content">
         <h2>{{ .Get "name" }}</h2>
-        <p><strong>Studiengang:</strong> {{ .Get "studiengang" }}<br>
-            {{ with .Get "email" }}📧 <a href="mailto:{{ . }}">{{ . }}</a><br>{{ end }}</p>
+        <p><strong>Studiengang:</strong> {{ .Get "studiengang" }}</p>
     </div>
 </div>
 {{ .Inner | markdownify }}

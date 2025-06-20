@@ -1,13 +1,47 @@
 <section class="py-5 hero-section">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-12 text-center mb-4 mb-md-0">
-                <h1 class="display-5 fw-bold text-center">Willkommen auf der Website des FSR Informatik</h1>
-                <p class="lead text-center">Gemeinsam stark im Studium – dein Fachschaftsrat steht für Austausch,
-                    Unterstützung und Mitgestaltung.</p>
+            <div class="col-md-12 text-center mb-2 mb-md-0">
+                <div class="hero-icons d-flex justify-content-center gap-4 mt-5">
+                    <a href="https://www.instagram.com/ifsrde" class="d-flex align-items-center"
+                       aria-label="iFSR auf Instagram">
+                        {{ with resources.Get "icons/social-media/instagram.svg" }}
+                            {{ .Content | safeHTML }}
+                        {{ end }}
+                    </a>
+                    <a href="https://github.com/fsr" class="d-flex align-items-center" aria-label="iFSR auf GitHub">
+                        {{ with resources.Get "icons/social-media/github.svg" }}
+                            {{ .Content | safeHTML }}
+                        {{ end }}
+                    </a>
+                    <a href="https://t.me/s/ifsrde" class="d-flex align-items-center" aria-label="iFSR auf Telegram">
+                        {{ with resources.Get "icons/social-media/telegram.svg" }}
+                            {{ .Content | safeHTML }}
+                        {{ end }}
+                    </a>
+                    <a href="https://toot.kif.rocks/@iFSR" class="d-flex align-items-center"
+                       aria-label="iFSR auf Mastodon">
+                        {{ with resources.Get "icons/social-media/mastodon.svg" }}
+                            {{ .Content | safeHTML }}
+                        {{ end }}
+                    </a>
+                </div>
+                <h1 class="display-5 fw-bold text-center">
+                    {{ if eq .Site.Language.Lang "de" }}Willkommen auf der Website des FSR Informatik{{ else }}Welcome to the website of the FSR Computer Science{{ end }}
+                </h1>
+                <p class="lead text-center">
+                    {{ if eq .Site.Language.Lang "de" }}Gemeinsam stark im Studium – dein Fachschaftsrat steht für Austausch,
+                        Unterstützung und Mitgestaltung.{{ else }}Your student council is here to empower your studies through collaboration, help, and community engagement.{{ end }}
+                </p>
                 <div class="d-flex justify-content-center gap-4 mt-3">
-                    <a href="{{ "/about" | relURL }}" class="btn btn-primary btn-lg">mehr erfahren</a>
-                    <a href="{{ "/kontakt" | relURL }}" class="btn btn-secondary btn-lg">kontaktieren</a>
+                    <a href="{{ if eq .Site.Language.Lang "en" }}/en/about{{ else }}/about{{ end }}"
+                       class="btn btn-primary btn-lg">
+                        {{ if eq .Site.Language.Lang "de" }}mehr erfahren{{ else }}learn more{{ end }}
+                    </a>
+                    <a href="{{ if eq .Site.Language.Lang "en" }}/en/kontakt{{ else }}/kontakt{{ end }}"
+                       class="btn btn-secondary btn-lg">
+                        {{ if eq .Site.Language.Lang "de" }}kontaktieren{{ else }}contact us{{ end }}
+                    </a>
                 </div>
             </div>
         </div>
@@ -22,17 +56,19 @@
                     {{ end }}
                     ESE Website
                 </a>
-                <a href="/events" class="d-flex align-items-center">
+                <a href="{{ if eq .Site.Language.Lang "en" }}/en/events{{ else }}/events{{ end }}"
+                   class="d-flex align-items-center">
                     {{ with resources.Get "icons/home-link.svg" }}
                         {{ .Content | safeHTML }}
                     {{ end }}
                     Events
                 </a>
-                <a href="/neuigkeiten" class="d-flex align-items-center">
+                <a href="{{ if eq .Site.Language.Lang "en" }}/en/neuigkeiten{{ else }}/neuigkeiten{{ end }}"
+                   class="d-flex align-items-center">
                     {{ with resources.Get "icons/home-link.svg" }}
                         {{ .Content | safeHTML }}
                     {{ end }}
-                    Neuigkeiten
+                    {{ if eq .Site.Language.Lang "de" }}Neuigkeiten{{ else }}News{{ end }}
                 </a>
             </div>
             <div class="hero-card left-2"></div>
