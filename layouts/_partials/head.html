@@ -50,3 +50,31 @@
 
 {{ partialCached "head/css.html" . }}
 {{ partialCached "head/js.html" . }}
+
+<!-- SEO -->
+<meta name="description"
+      content="Offizielle Website des Fachschaftsrats Informatik der TU Dresden (iFSR). Informationen zu Studium, Veranstaltungen, Services und studentischer Mitwirkung für Informatik-Studierende.">
+<meta name="keywords"
+      content="Fachschaftsrat Informatik, iFSR, TU Dresden, Informatik, Studium, Studierende, TUD, Universität, Dresden">
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Fachschaftsrat Informatik der TU Dresden",
+        "alternateName": "iFSR",
+        "url": "https://ifsr.de",
+        "sameAs": [
+            "https://github.com/fsr",
+            "https://www.instagram.com/ifsrde/"
+        ],
+        "affiliation": {
+            "@type": "CollegeOrUniversity",
+            "name": "Technische Universität Dresden"
+        }
+    }
+</script>
+<meta property="og:title" content="Fachschaftsrat Informatik TU Dresden – iFSR"/>
+<meta property="og:description"
+      content="Offizielle Website des Fachschaftsrats Informatik der TU Dresden. Infos zu Studium, Events und studentischer Interessenvertretung."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://ifsr.de"/>
