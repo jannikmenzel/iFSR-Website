@@ -2,6 +2,10 @@
 
 # iFSR Website – TU Dresden
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![hugo](https://img.shields.io/badge/hugo-0.154%2B-informational)
+![decap cms](https://img.shields.io/badge/Decap-CMS-blue)
+
 Dies ist die offizielle Website des iFSR (Informatik-Fachschaftsrat) der Technischen Universität Dresden. Die Seite
 wurde mit dem statischen Website-Generator [Hugo](https://gohugo.io/) erstellt und dient als zentrale
 Informationsplattform für Studierende der Fakultät Informatik.
@@ -10,6 +14,7 @@ Informationsplattform für Studierende der Fakultät Informatik.
 
 - **Framework:** [Hugo](https://gohugo.io/) – statischer Site-Generator
 - **CSS-Framework:** [Bootstrap](https://getbootstrap.com/) – responsives Frontend-Toolkit
+- **Decap-CMS:** [Decap](https://decapcms.org/) – Content-Management-System
 
 ## 🚀 Schnellstart
 
@@ -30,8 +35,8 @@ Weitere Informationen findest du [hier](https://gohugo.io/getting-started/instal
 ### Projekt klonen und lokal starten
 
 ```bash
-git clone git@github.com:jannikmenzel/iFSR-Website.git
-cd iFSR-Website
+git clone ssh://git@ifsr.de/FSR/webseite.git
+cd webseite
 
 # Alias für die lokale Entwicklungsumgebung
 alias hugodev='hugo server --disableFastRender --ignoreCache --noHTTPCache --cleanDestinationDir'
@@ -41,18 +46,20 @@ hugodev
 
 Anschließend kannst du die Website im Browser unter [http://localhost:1313](http://localhost:1313) aufrufen.
 
+> Hinweis: Stelle sicher, dass eine aktuelle Hugo version genutzt wird!
+
 ## 📁 Projektstruktur
 
 - `content/` – Inhalte der Website (Seiten im Markdown Format)
 - `layouts/` – Individuelle Layouts und Templates
 - `static/` – Statische Dateien (z.B. Bilder, PDFs)
 - `assets/` – CSS, JavaScript Dateien und Images
-- `data/` – Navigation Config-Datei
+- `data/` – Navigation und Config-Dateien
 - `hugo.toml` – Hauptkonfigurationsdatei für Hugo
 
 ## 📝 CMS
 
-Diese Website nutzt [Decap CMS](https://decapcms.org/) als Content Management System. Damit können berechtigte Nutzer:innen Inhalte direkt über eine grafische Oberfläche im Browser bearbeiten – ganz ohne lokalen Zugriff oder technisches Vorwissen.
+Diese Website nutzt [Decap CMS](https://decapcms.org/) als Content-Management-System. Damit können berechtigte Nutzer:innen Inhalte direkt über eine grafische Oberfläche im Browser bearbeiten – ganz ohne lokalen Zugriff oder technisches Vorwissen.
 
 ### Zugang zum CMS
 
@@ -62,25 +69,24 @@ Das CMS ist unter `/admin` erreichbar: [https://ifsr.de/admin](https://ifsr.de/a
 
 1. Rufe `/admin` im Browser auf.
 2. Melde dich mit deinem Benutzerkonto an.
-3. Wähle in der linken Navigation die gewünschte Inhaltskategorie (z.B. "Über Uns").
+3. Wähle in der linken Navigation die gewünschte Inhaltskategorie (z.B. "About").
 4. Klicke auf den Eintrag, den du bearbeiten möchtest.
-5. Nimm Änderungen im Editor vor und speichere sie mit "Save" und anschließend "Publish".
+5. Nimm Änderungen im Editor vor und speichere sie mit "Publish".
 
 ### Hinweise
 
 - Änderungen werden direkt im `content/` Verzeichnis gespeichert (als Markdown-Dateien im Git-Repository).
-- Das CMS spiegelt die Navigation basierend auf den vorhandenen Inhalten und Konfigurationen wider.
-- Für neue Inhaltstypen müssen ggf. Anpassungen an der Datei `static/admin/config.yml` vorgenommen werden.
+- Das CMS spiegelt die Navigation basierend auf den vorhandenen Inhalten und Konfigurationen wider. Achte daher darauf, dass Änderungen sowohl im `GER` als auch im `ENG` Verzeichnis durchgeführt werden.
+- Für neue Inhaltstypen oder angepasste Nav-Strukturen müssen ggf. Anpassungen an der Datei `static/admin/config.yml` vorgenommen werden.
 
 ## 💡 Entwicklungs-Hinweise
 
 ### Neue Seite anlegen (inkl. Navbar)
 
-1. Erstelle eine neue Markdown-Datei im passenden Unterordner innerhalb von `content/`, z.B.:
+1. Erstelle neue Markdown-Dateien (.de und .en für Mehrsprachigkeit) innerhalb von `content/`, z.B.:
 
-   ```bash
-   content/about/team.md
-   ```
+- `content/team.de.md`
+- `content/team.en.md`
 
 2. Füge in der Datei ein Front-Matter hinzu:
 
@@ -92,7 +98,7 @@ Das CMS ist unter `/admin` erreichbar: [https://ifsr.de/admin](https://ifsr.de/a
    ---
    ```
 
-3. Trage die Seite in der Navigationsstruktur ein, indem du sie in `data/navigation.toml` ergänzt:
+3. Trage die Seite in der Navigationsstruktur ein, indem du sie in `navigation_de.toml` und `navigation_en.toml` ergänzt:
 
    ```toml
    [[menu.main]]
@@ -117,7 +123,7 @@ Das CMS ist unter `/admin` erreichbar: [https://ifsr.de/admin](https://ifsr.de/a
 
 1. Öffne die entsprechende `.md`-Datei im `content/`-Verzeichnis.
 2. Bearbeite den Inhalt im Markdown-Format.
-3. Änderungen werden beim Speichern durch `hugodev` automatisch neu geladen.
+3. Änderungen werden durch `hugodev` automatisch neu geladen.
 
 ---
 
@@ -125,6 +131,14 @@ Das CMS ist unter `/admin` erreichbar: [https://ifsr.de/admin](https://ifsr.de/a
 
 Du kannst Code Snippets in deine Markdown Files integrieren, um die Website interaktiver zu gestalten. Nachfolgend
 findest du hierfür eine Anleitung.
+
+#### Image
+
+```
+{{< image
+src="/images/picture.jpg"
+alt="Alt Text" >}}
+```
 
 #### Details
 
@@ -146,11 +160,7 @@ number="01" >}}
 
 ```
 {{< profile
-name="Name"
-image="/images/mitglieder/vorname-nachname.jpg"
-studiengang="BA Informatik, 1. Semester" >}}
-
-{{ .Content }}
+bio="vorname-nachname" >}}
 
 {{< /profile >}}
 ```
@@ -165,3 +175,7 @@ Bei Fragen oder Vorschlägen zur Website kontaktiere uns gerne:
 Bei spezifischen Fragen zum Sourcecode kontaktiere:
 
 - [jannik.menzel@ifsr.de](mailto:jannik.menzel@ifsr.de)
+
+## Lizenz
+
+Dieses Projekt ist unter der MIT Lizenz lizenziert. Details dazu findest du in der `LICENSE` Datei.
