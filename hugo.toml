@@ -1,4 +1,4 @@
-baseURL = "https://test.ifsr.de/"
+baseURL = "https://ifsr.jannikmenzel.me/"
 canonifyURLs = true
 languageCode = 'de'
 title = 'iFSR-Website'
