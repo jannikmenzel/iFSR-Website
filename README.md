@@ -177,5 +177,4 @@ Bei spezifischen Fragen zum Sourcecode kontaktiere:
 - [jannik.menzel@ifsr.de](mailto:jannik.menzel@ifsr.de)
 
 ## Lizenz
-
-Dieses Projekt ist unter der MIT Lizenz lizenziert. Details dazu findest du in der `LICENSE` Datei.
+Der Sourcecode dieses Projektes ist unter der MIT Lizenz lizenziert. Details dazu findest du in der `LICENSE` Datei.
