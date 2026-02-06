@@ -1,0 +1,127 @@
+name: Lighthouse CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  lighthouse:
+    runs-on: ubuntu-latest
+
+    outputs:
+      perf: ${{ steps.scores.outputs.perf }}
+      accessibility: ${{ steps.scores.outputs.accessibility }}
+      best-practices: ${{ steps.scores.outputs.best-practices }}
+      seo: ${{ steps.scores.outputs.seo }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Get deployment URL
+        id: url
+        run: |
+          REPO_NAME="${{ github.repository }}"
+          USER_NAME="${REPO_NAME%/*}"
+          echo "url=https://${USER_NAME}.github.io/${REPO_NAME#*/}" >> $GITHUB_OUTPUT
+
+      - name: Run Lighthouse CI
+        uses: treosh/lighthouse-ci-action@v11
+        with:
+          urls: |
+            ${{ steps.url.outputs.url }}
+          uploadArtifacts: true
+          temporaryPublicStorage: true
+          configPath: ./.github/lighthouse/config.json
+
+      - name: Extract Lighthouse Scores
+        id: scores
+        run: |
+          PERF=0
+          ACCESS=0
+          BEST=0
+          SEO=0
+
+          if [ -f ".lighthouseci/assertion-results.json" ]; then
+            if jq -e '.[0].audits.performance.score' .lighthouseci/assertion-results.json > /dev/null 2>&1; then
+              PERF=$(jq -r '.[0].audits.performance.score // 0 | . * 100 | round' .lighthouseci/assertion-results.json)
+              ACCESS=$(jq -r '.[0].audits.accessibility.score // 0 | . * 100 | round' .lighthouseci/assertion-results.json)
+              BEST=$(jq -r '.[0].audits["best-practices"].score // 0 | . * 100 | round' .lighthouseci/assertion-results.json)
+              SEO=$(jq -r '.[0].audits.seo.score // 0 | . * 100 | round' .lighthouseci/assertion-results.json)
+            fi
+          fi
+
+          if [ "$PERF" = "0" ] && ls .lighthouseci/lhr-*.json 1> /dev/null 2>&1; then
+            LHR_FILE=$(ls .lighthouseci/lhr-*.json | head -1)
+            if [ -f "$LHR_FILE" ]; then
+              PERF=$(jq -r '.categories.performance.score // 0 | . * 100 | round' "$LHR_FILE")
+              ACCESS=$(jq -r '.categories.accessibility.score // 0 | . * 100 | round' "$LHR_FILE")
+              BEST=$(jq -r '.categories["best-practices"].score // 0 | . * 100 | round' "$LHR_FILE")
+              SEO=$(jq -r '.categories.seo.score // 0 | . * 100 | round' "$LHR_FILE")
+            fi
+          fi
+
+          echo "perf=$PERF" >> $GITHUB_OUTPUT
+          echo "accessibility=$ACCESS" >> $GITHUB_OUTPUT
+          echo "best-practices=$BEST" >> $GITHUB_OUTPUT
+          echo "seo=$SEO" >> $GITHUB_OUTPUT
+
+  update-readme:
+    runs-on: ubuntu-latest
+    needs: lighthouse
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup git config
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Update README with Lighthouse scores
+        run: |
+          get_color() {
+            SCORE=$1
+            SCORE_CLEANED=$(echo "$SCORE" | sed 's/[^0-9]*//g')
+            if [ -z "$SCORE_CLEANED" ] || [ "$SCORE_CLEANED" = "0" ]; then
+              echo "lightgrey"
+            elif [ "$SCORE_CLEANED" -ge 90 ]; then
+              echo "brightgreen"
+            elif [ "$SCORE_CLEANED" -ge 70 ]; then
+              echo "green"
+            elif [ "$SCORE_CLEANED" -ge 50 ]; then
+              echo "yellow"
+            else
+              echo "red"
+            fi
+          }
+
+          declare -A scores=(
+            ["Performance"]="${{ needs.lighthouse.outputs.perf }}"
+            ["Accessibility"]="${{ needs.lighthouse.outputs.accessibility }}"
+            ["Best Practices"]="${{ needs.lighthouse.outputs.best-practices }}"
+            ["SEO"]="${{ needs.lighthouse.outputs.seo }}"
+          )
+
+          for category in "${!scores[@]}"; do
+            score="${scores[$category]}"
+            color=$(get_color "$score")
+            category_escaped=$(echo "$category" | sed 's/ /%20/g')
+            sed -i -E "s|!\[$category\].*|![$category](https://img.shields.io/badge/$category_escaped-${score}%25-$color)|g" README.md
+          done
+
+          sed -i "s/{PERF_SCORE}/${{ needs.lighthouse.outputs.perf }}/g" README.md
+          sed -i "s/{ACCESS_SCORE}/${{ needs.lighthouse.outputs.accessibility }}/g" README.md
+          sed -i "s/{BEST_SCORE}/${{ needs.lighthouse.outputs.best-practices }}/g" README.md
+          sed -i "s/{SEO_SCORE}/${{ needs.lighthouse.outputs.seo }}/g" README.md
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "docs: Update Lighthouse scores in README"
+          file_pattern: README.md
+          branch: ${{ github.ref }}

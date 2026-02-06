@@ -2,8 +2,8 @@
 
 # iFSR Website – TU Dresden
 
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![hugo](https://img.shields.io/badge/hugo-0.154%2B-informational)
+[![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![hugo](https://img.shields.io/badge/hugo-0.154%2B-informational)](hugo.toml)
 ![decap cms](https://img.shields.io/badge/Decap-CMS-blue)
 
 Dies ist die offizielle Website des iFSR (Informatik-Fachschaftsrat) der Technischen Universität Dresden. Die Seite
@@ -15,6 +15,13 @@ Informationsplattform für Studierende der Fakultät Informatik.
 - **Framework:** [Hugo](https://gohugo.io/) – statischer Site-Generator
 - **CSS-Framework:** [Bootstrap](https://getbootstrap.com/) – responsives Frontend-Toolkit
 - **Decap-CMS:** [Decap](https://decapcms.org/) – Content-Management-System
+
+## Lighthouse Performance
+
+![Performance](https://img.shields.io/badge/Performance-98%25-brightgreen)
+![Accessibility](https://img.shields.io/badge/Accessibility-94%25-brightgreen)
+![Best Practices](https://img.shields.io/badge/Best%20Practices-100%25-brightgreen)
+![SEO](https://img.shields.io/badge/SEO-92%25-brightgreen)
 
 ## 🚀 Schnellstart
 
