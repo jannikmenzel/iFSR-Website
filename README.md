@@ -2,6 +2,7 @@
 
 # iFSR Website – TU Dresden
 
+[![Run Lighthouse CI](https://github.com/jannikmenzel/iFSR-Website/actions/workflows/lighthouse.yml/badge.svg)](https://github.com/jannikmenzel/iFSR-Website/actions/workflows/lighthouse.yml)
 [![license](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![hugo](https://img.shields.io/badge/hugo-0.154%2B-informational)](hugo.toml)
 ![decap cms](https://img.shields.io/badge/Decap-CMS-blue)
