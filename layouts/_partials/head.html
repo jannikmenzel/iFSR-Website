@@ -1,7 +1,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <meta name="description"
-      content="Offizielle Website des iFSR – Informationen, Veranstaltungen und Ressourcen für Studierende der Informatik an der TU Dresden.">
+      content="Offizielle Website des Fachschaftsrats Informatik der TU Dresden (iFSR). Informationen zu Studium, Veranstaltungen, Services und studentischer Mitwirkung für Informatik-Studierende.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://cdn.jsdelivr.net">
+
 <link rel="icon" href="{{ "favicon.ico" | relURL }}" type="image/x-icon">
 
 <!-- SVG Preload -->
@@ -22,6 +26,7 @@
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"
+        defer
 ></script>
 
 <!-- Exo 2 Font -->
@@ -29,17 +34,13 @@
 <title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
 
 <!-- Darkmode JS -->
-<script>
+<script defer>
     (function () {
-        try {
-            const stored = localStorage.getItem("theme");
-            const systemPrefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-            const isDark = stored ? stored === "dark" : systemPrefersDark;
-            if (isDark) {
-                document.documentElement.classList.add("dark");
-            }
-        } catch (e) {
-            // ignore errors
+        const stored = localStorage.getItem("theme");
+        const systemPrefersDark = globalThis.matchMedia("(prefers-color-scheme: dark)").matches;
+        const isDark = stored ? stored === "dark" : systemPrefersDark;
+        if (isDark) {
+            document.documentElement.classList.add("dark");
         }
     })();
 </script>
@@ -52,8 +53,6 @@
 {{ partialCached "head/js.html" . }}
 
 <!-- SEO -->
-<meta name="description"
-      content="Offizielle Website des Fachschaftsrats Informatik der TU Dresden (iFSR). Informationen zu Studium, Veranstaltungen, Services und studentischer Mitwirkung für Informatik-Studierende.">
 <meta name="keywords"
       content="Fachschaftsrat Informatik, iFSR, TU Dresden, Informatik, Studium, Studierende, TUD, Universität, Dresden">
 <script type="application/ld+json">
