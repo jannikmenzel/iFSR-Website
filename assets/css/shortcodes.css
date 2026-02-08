@@ -44,14 +44,16 @@
    details
    ======================== */
 .details {
-    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font: inherit;
     background-color: var(--color-off);
     padding: 5px 20px 10px 20px;
     color: var(--color-text);
     border: 1px solid var(--color-text);
     border-radius: 30px;
     box-shadow: 0 4px 0 0 var(--color-text);
-    margin: 2rem 0 2rem 0;
+    margin: 1rem 0 1rem 0;
 }
 
 .details.expanded {

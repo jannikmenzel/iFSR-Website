@@ -2,13 +2,13 @@
 {{ if .IsHome }}
     <script>
         const cachedLang = localStorage.getItem("language");
-        const path = window.location.pathname;
+        const path = globalThis.location.pathname;
 
         if (cachedLang) {
             if (cachedLang === "de" && path !== "/") {
-                window.location.href = "/";
+                globalThis.location.href = "/";
             } else if (cachedLang === "en" && path !== "/en/") {
-                window.location.href = "/en/";
+                globalThis.location.href = "/en/";
             }
         } else {
             const lang = navigator.language;

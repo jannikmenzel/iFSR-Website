@@ -44,12 +44,12 @@
   document.getElementById('lang-en-link').addEventListener('click', function(event) {
     event.preventDefault();
     localStorage.setItem('language', 'en');
-    window.location.pathname = '/en' + window.location.pathname.replace(/^\/(de|en)/, '');
+      globalThis.location.pathname = '/en' + globalThis.location.pathname.replace(/^\/(de|en)/, '');
   });
   document.getElementById('lang-de-link').addEventListener('click', function(event) {
     event.preventDefault();
     localStorage.setItem('language', 'de');
-    window.location.pathname = '/' + window.location.pathname.replace(/^\/(de|en)/, '');
+      globalThis.location.pathname = '/' + globalThis.location.pathname.replace(/^\/(de|en)/, '');
   });
 </script>
 </footer>

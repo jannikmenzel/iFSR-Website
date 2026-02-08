@@ -3,7 +3,7 @@
    ======================== */
 document.addEventListener("DOMContentLoaded", () => {
     const themeSwitch = document.getElementById("theme-switch");
-    const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+    const prefersDarkScheme = globalThis.matchMedia("(prefers-color-scheme: dark)");
 
     const applyTheme = (theme) => {
         document.documentElement.classList.toggle("dark", theme === "dark");
@@ -28,8 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     const updateBodyThemeAttr = () => {
-        const current = document.documentElement.classList.contains("dark") ? "dark" : "light";
-        document.body.setAttribute("data-theme", current);
+        document.body.dataset.theme = document.documentElement.classList.contains("dark") ? "dark" : "light";
     };
     updateBodyThemeAttr();
 
@@ -45,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
 /* ========================
    Details Toggle
    ======================== */
-window.toggleDetails = function (element) {
+globalThis.toggleDetails = function (element) {
     element.classList.toggle('expanded');
 
     const plusIcon = element.querySelector('.icon-plus');
@@ -69,7 +68,7 @@ function renderFeedEntries(data) {
     const isInFeedSection = container.closest('.feed-section') !== null;
     let maxItems;
     if (isInFeedSection) {
-        const computedStyle = window.getComputedStyle(container);
+        const computedStyle = globalThis.getComputedStyle(container);
         const columnCount = computedStyle.getPropertyValue('grid-template-columns').split(' ').length;
         lastColumnCount = columnCount;
         maxItems = columnCount === 3 ? 3 : 4;
@@ -78,17 +77,17 @@ function renderFeedEntries(data) {
     }
 
     data.items.slice(0, maxItems).forEach(item => {
-        const cleanedContent = item.content.replace(/<span class="invisible">.*?<\/span>/g, '');
+        const cleanedContent = item.content.replaceAll(/<span class="invisible">.*?<\/span>/g, '');
 
         let imageUrl;
 
         if (item.thumbnail) {
             imageUrl = item.thumbnail;
-        } else if (item.enclosure && item.enclosure.link) {
+        } else if (item.enclosure?.link) {
             imageUrl = item.enclosure.link;
         } else {
             const imgMatch = item.content.match(/<img.*?src="(.*?)"/);
-            if (imgMatch && imgMatch[1]) {
+            if (imgMatch?.[1]) {
                 imageUrl = imgMatch[1];
             } else {
                 imageUrl = '/images/thumbnail.jpg';
@@ -123,7 +122,7 @@ fetch('https://api.rss2json.com/v1/api.json?rss_url=https://toot.kif.rocks/@ifsr
             const container = document.getElementById('feed');
             if (!container) return;
 
-            const computedStyle = window.getComputedStyle(container);
+            const computedStyle = globalThis.getComputedStyle(container);
             const columnCount = computedStyle.getPropertyValue('grid-template-columns').split(' ').length;
 
             if (columnCount !== lastColumnCount) {

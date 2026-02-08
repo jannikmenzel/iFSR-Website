@@ -1,4 +1,4 @@
-<div class="details" onclick="toggleDetails(this)">
+<button type="button" class="details" onclick="toggleDetails(this)">
     <div class="details-header">
         <h2 class="details-text">
             {{ with .Get "number" }}<span class="details-number">{{ . }}</span> {{ end }}
@@ -22,4 +22,4 @@
     <div class="details-content">
         {{ .Inner | markdownify }}
     </div>
-</div>
+</button>
